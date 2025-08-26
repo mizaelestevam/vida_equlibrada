@@ -11,23 +11,36 @@ body {
 header
 ==============*/
 header {
-    text-align: center;
+    padding: 5vw 5vw 5vw 5vw;
+    & nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & ul{
+            display: flex;
+            & li{
+                margin: 0px 5px 5px 0px;
+
+            }
+        }
+        & h1{
+            font-weight: bold;
+            font-size: 3rem;
+        }
+    }
 }
-
-header h1 img{
-    width: 10vw;
+header nav ul li.atual a{
+color: black;
 }
-
-header nav ul li {
-    margin: 10px 0 10px 0;
-
+header a{
+    color: white;
 }
-header nav ul li a {
-    color: black;
-    text-decoration: none;
+/*banner*/
+section.banner{
+    display: flex;
+    padding: 2vw 5vw 2vw 5vw;  
 }
-
-
-strong{
-    font-weight: bold;
+section.banner h3{
+color:black;
+font-weight: bold;
 }
