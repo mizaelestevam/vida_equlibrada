@@ -11,7 +11,7 @@ body {
 header
 ==============*/
 header {
-    padding: 5vw 5vw 5vw 5vw;
+    padding: 2vw 3vw 2vw 3vw;
     & nav{
         display: flex;
         justify-content: space-between;
@@ -19,7 +19,7 @@ header {
         & ul{
             display: flex;
             & li{
-                margin: 0px 5px 5px 0px;
+                margin: 6px 6px 6px 6px;
 
             }
         }
@@ -36,7 +36,7 @@ header a{
     color: white;
 }
 header nav img { 
-border-radius: 70%;
+border-radius: 50%;
 width: 120px;
 height: auto;
 }
@@ -52,17 +52,24 @@ flex-direction: column;
 }
 header nav {
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 justify-content: flex-start;
+}
+header nav img {
+    margin-bottom: 25px;
 }
 herder nav ul {
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
-margin: 0;
-padding: 0;
-list-style: none;
+margin-bottom:  25px;
+}
+header nav h1,
+header nav p {
+    text-align: center;
+    margin: 10px o;
+    line-height: 1.3;
 }
 /*banner*/
 section.banner{
@@ -82,4 +89,30 @@ text-align: center;
 }
 section.banner  p a{ 
 color: white;
+}
+.logo-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.logo-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.logo-menu img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+section.banner h1{
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+    line-height: 1.3;
 }
