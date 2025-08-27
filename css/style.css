@@ -35,12 +35,51 @@ color: black;
 header a{
     color: white;
 }
+header nav img { 
+border-radius: 70%;
+width: 120px;
+height: auto;
+}
+header nav h1 { 
+font-weight: bold;
+font-size: 2.5rem;
+text-align: center;
+}
+header nav { 
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+header nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+herder nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+margin: 0;
+padding: 0;
+lista-style: none;
+}
 /*banner*/
 section.banner{
     display: flex;
     padding: 2vw 5vw 2vw 5vw;  
 }
-section.banner h3{
+section.banner h1{
 color:black;
 font-weight: bold;
+}
+section.banner {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5vw 5vw 5vw 5vw;
+text-align: center;
+}
+section.banner  p a{ 
+color: white;
 }
