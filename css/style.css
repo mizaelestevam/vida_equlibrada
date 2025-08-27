@@ -5,7 +5,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
-    background-color: #cabcb5;
+    background-color: #d6cac6;
 }
 /*=============
 header
@@ -33,7 +33,7 @@ header nav ul li.atual a{
 color: black;
 }
 header a{
-    color: white;
+    color: #0a7140;
 }
 header nav img { 
 border-radius: 50%;
@@ -116,3 +116,4 @@ section.banner h1{
     text-align: center;
     line-height: 1.3;
 }
+
