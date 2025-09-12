@@ -7,7 +7,7 @@ body p, nav, strong{
 }
 
 body {
-    background-color: #A8E6CF;
+    background-color: ;
     font-family: 'Merriweather', Arial, sans-serif;
 }
 
@@ -96,7 +96,6 @@ header nav ul li ul {
 
 header nav ul li:hover ul {
     display: block;
-    background: bisque;
 }
 
 /*banner*/
