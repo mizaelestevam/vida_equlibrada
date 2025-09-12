@@ -6,18 +6,15 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-    background-color: #c7bab5;
-}
-
-
 body p, nav, strong{
    line-height: 1.08rem;
 }
 
-/*body, h1, h2, h3, h4, h5, h6, p, li, a, span, strong, em {
-    text-align: left;
-}*/
+body {
+    background-color: #4CAFEA;
+    font-family: 'Merriweather', Arial, sans-serif;
+}
+
 /*=============
 header
 ==============*/
