@@ -181,3 +181,53 @@ section.banner2 p strong {
 section.banner2 p{
     margin: 4px 0px 4px 0px;
 }
+
+
+/*footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 10vw 5vw 10vw;
+  background: rgb(228, 226, 226) ;
+}
+footer h3{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 1vw 0;
+}
+footer p{
+color: #293646;
+margin: 2vw 0;
+}
+footer h4{
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 1vw 0;
+}
+footer nav ul  li a{
+  color:#8A8FB9;
+  margin: 5px 0;
+}
+footer nav ul li{
+  margin: 2vw 0;
+}
+
+footer div nav a{
+    color:#3d5c83;
+    font-size: 1.5rem;
+}
+
+footer div h4 {
+    margin-bottom: 10px;
+}
+
+footer div nav {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+footer div p span{
+    font-size: 0.7rem;
+    color: gray;
+}
