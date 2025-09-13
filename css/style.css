@@ -7,7 +7,7 @@ body p, nav, strong{
 }
 
 body {
-    background-color: ;
+    background-color: #FFFFFF;
     font-family: 'Merriweather', Arial, sans-serif;
 }
 
@@ -167,7 +167,7 @@ section.banner strong {
 }
 
 section.banner p a {
-    color: rgb(4, 94, 4);
+    color: #1565C0;
     text-align: left;
 }
 
