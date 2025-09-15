@@ -11,6 +11,10 @@ body {
     font-family: 'Merriweather', Arial, sans-serif;
 }
 
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+}
+
 h2{
     color: black;
     font-weight: bold;
