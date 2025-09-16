@@ -7,7 +7,7 @@ body p, nav, strong{
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: white;
     font-family: 'Merriweather', Arial, sans-serif;
 }
 
@@ -206,7 +206,7 @@ footer{
   display: flex;
   justify-content: space-between;
   padding: 5vw 10vw 5vw 10vw;
-  background: rgb(228, 226, 226) ;
+  background: rgb(131, 129, 129) ;
 }
 footer h3{
   font-size: 2rem;
@@ -223,7 +223,7 @@ footer h4{
   margin: 1vw 0;
 }
 footer nav ul  li a{
-  color:#8A8FB9;
+  color:#6e7082;
   margin: 5px 0;
 }
 footer nav ul li{
@@ -247,5 +247,5 @@ footer div nav {
 
 footer div p span{
     font-size: 0.7rem;
-    color: gray;
+    color: rgb(14, 12, 12);
 }
