@@ -1,2 +1,2 @@
 # vida_equlibrada
-Projeto integrador 
+Projeto integrador IFC
