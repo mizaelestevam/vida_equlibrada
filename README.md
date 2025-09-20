@@ -1,4 +1,4 @@
 # vida_equlibrada
-Projeto integrador 
-IFC Instituto Federal SC
+Um site focado em dicas de saúde, bem-estar e qualidade de vida.
+
 
