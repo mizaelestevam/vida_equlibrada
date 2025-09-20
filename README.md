@@ -1,2 +1,4 @@
 # vida_equlibrada
-Projeto integrador IFC
+Projeto integrador 
+IFC Instituto Federal SC
+
