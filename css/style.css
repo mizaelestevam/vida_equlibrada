@@ -65,9 +65,9 @@ header a {
 }
 
 header nav img {
-    border-radius: 50%;
-    width: 120px;
-    height: auto;
+    margin-bottom: 0;
+    width: 100px;
+  
 }
 
 header nav h1 {
@@ -275,7 +275,7 @@ footer nav ul li{
 footer div nav a{
     color:#3d5c83;
     font-size: 1.5rem;
-    padding: 2vw 5vw 2vw 5vw;
+    padding: 5px;
 }
 
 footer div h4 {
