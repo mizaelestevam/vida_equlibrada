@@ -249,7 +249,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     gap: 60px;
-    padding: 40px 10px;
+    padding: 3vw 3vw 3vw 3vw;
     background: rgb(150, 150, 150);
     text-align: left;
 }
