@@ -129,6 +129,10 @@ section.banner {
     padding: 2vw 3vw 2vw 3vw;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;        
+    justify-content: center; 
 }
 
 section.banner h1 {
@@ -162,7 +166,11 @@ section.banner p a {
     height: auto;
     border-radius: 50%;
 }
-
+section.banner iframe {
+    flex: 1 1 300px;  
+    max-width: 400px; 
+    height: 300px;   
+}
 /*vida equilibrada*/
 
 section.banner h1 {
@@ -195,6 +203,16 @@ section.banner p a {
 
 section.banner p.text {
     font-size: 17px;
+}
+
+
+section.banner p img {
+    width: 400px;
+    height: auto;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*informacoes*/
