@@ -11,11 +11,11 @@ strong {
 body {
     background-color: white;
     font-family: 'Merriweather', Arial, sans-serif;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
-    /* remove o sublinhado dos links */
 }
 
 h2 {
@@ -183,6 +183,16 @@ section.banner iframe {
     flex: 1 1 300px;  
     max-width: 400px; 
     height: 300px;   
+}
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.alimentacao-equlibrada img {
+  width: auto;
+  height: auto;
+  object-fit: none;
 }
 /*vida equilibrada*/
 
