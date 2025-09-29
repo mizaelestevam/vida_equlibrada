@@ -21,7 +21,7 @@ a {
 h2 {
     color: black;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.6;
 }
 
@@ -29,7 +29,7 @@ h3 {
     color: black;
     font-weight: bold;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: 1.1;
 }
 body {
   padding: 8px; 
@@ -207,11 +207,24 @@ section.banner iframe {
     max-width: 400px; 
     height: 300px;   
 }
+.video-container {
+    display: flex;             
+    gap: 2rem;                 
+    justify-content: center;   
+    flex-wrap: wrap;           
+}
+
+.video-container video {
+    width: 45%;               
+    max-width: 600px;          
+    border-radius: 15px;      
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
 /*vida equilibrada*/
 
 section.banner h1 {
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     text-align: center;
     line-height: 1.2;
 }
