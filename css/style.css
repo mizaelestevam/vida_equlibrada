@@ -22,7 +22,7 @@ a {
 h2 {
     color: black;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.rem;
     line-height: 1.8rem;
 }
 
@@ -367,8 +367,9 @@ footer div h4 {
 
 footer div nav {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
 }
 
 footer div p span {
@@ -387,6 +388,13 @@ footer div nav a {
     font-size: 0.9rem;
     font-weight: bolder;
     padding: 5px;
+}
+footer div.pagina nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 2px;
 }
 /*body*/
 
