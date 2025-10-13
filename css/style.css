@@ -103,26 +103,29 @@ header
 ==============*/
 
 header {
-    padding: 2vw 3vw 2vw 3vw;
-
-    & nav {
+    padding: 2vw 10vw 2vw 10vw;
+    background-image: url(../images/alimentacao-saudavel.webp);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+    header nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        & ul {
-            display: flex;
-
-            & li {
-                margin: 6px 6px 6px 6px;
-            }
-        }
-
-        & h1 {
-            font-weight: bold;
-            font-size: 3rem;
-        }
     }
+
+    header ul {
+        display: flex;
+    }
+
+    header li {
+        margin: 6px 6px 6px 6px;
+    }
+
+header h1 {
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 header nav ul li.atual a {
@@ -143,12 +146,6 @@ header nav h1 {
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 header nav {
@@ -193,7 +190,7 @@ header nav ul li:hover ul {
 
 section.banner {
     display: flex;
-    padding: 5px 5px 5px 5px;
+    padding: 2vw 10vw 2vw 10vw;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
@@ -262,6 +259,7 @@ section.banner h1 {
     font-size: 2.5rem;
     text-align: center;
     line-height: 1.2;
+    padding: 2vw 10vw 2vw 10vw;
 }
 
 section.banner p.foto-prato img {
@@ -321,7 +319,7 @@ section.informacoes p {
     margin: 6px 3px 6px 3px;
     line-height: 25px;
     padding: 3px;
-    
+
 
 }
 
@@ -332,13 +330,13 @@ section.informacoes p img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 section.informacoes ol li p strong {
     font-weight: 600;
     font-size: 19px;
-    
+
 }
 
 section.informacoes ol li p {
