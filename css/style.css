@@ -383,6 +383,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: column;
     gap: 60px;
     padding: 2vw 10vw 2vw 10vw;
     background: rgb(150, 150, 150);
