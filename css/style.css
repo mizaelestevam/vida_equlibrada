@@ -139,7 +139,6 @@ header a {
 header nav img {
     margin-bottom: 0;
     width: 10px;
-
 }
 
 header nav h1 {
@@ -419,6 +418,7 @@ footer div nav a {
 }
 footer div h4 {
     margin-bottom: 17px;
+    color: #435f80;;
 }
 footer div nav {
     display: flex;
@@ -434,9 +434,10 @@ footer h5 {
     font-size: 1.2rem;
     font-weight: bolder;
     margin: 0 0 10px 0;
+    color: #435f80;
 }
 footer div nav a {
-    color: #435f80;
+    color: #435f80;;
     font-size: 0.9rem;
     font-weight: bolder;
     padding: 5px;
