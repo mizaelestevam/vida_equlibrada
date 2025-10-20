@@ -393,10 +393,10 @@ footer h3 {
     font-size: 1.8rem;
     font-weight: bolder;
     margin: 0 0 10px 0;
-    color: #243c58;
+    color: #435f80;
 }
 footer p {
-    color: #2a4b74;
+    color: #435f80;
     margin: 0 0 10px 0;
 }
 footer h4 {
@@ -405,7 +405,7 @@ footer h4 {
     margin-bottom: 10px;
 }
 footer nav ul li a {
-    color: #6e7082;
+    color: #435f80;
     font-size: 0.9rem;
     text-decoration: none;
 }
@@ -413,7 +413,7 @@ footer nav ul li {
     margin: 5px 0;
 }
 footer div nav a {
-    color: #3d5c83;
+    color: #435f80;
     font-size: 1.5rem;
     padding: 5px;
 }
@@ -428,7 +428,7 @@ footer div nav {
 }
 footer div p span {
     font-size: 0.8rem;
-    color: #243c58;
+    color: #435f80;
 }
 footer h5 {
     font-size: 1.2rem;
@@ -436,7 +436,7 @@ footer h5 {
     margin: 0 0 10px 0;
 }
 footer div nav a {
-    color: #243c58;
+    color: #435f80;
     font-size: 0.9rem;
     font-weight: bolder;
     padding: 5px;
