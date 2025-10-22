@@ -11,7 +11,7 @@ strong {
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: bro;
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     padding: 8px;
@@ -99,7 +99,7 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.6;
-    color: #798252;
+    color: rgb(185, 181, 181);
 }
 
 ol {
@@ -282,7 +282,7 @@ section.banner h1 {
     text-align: center;
     line-height: 1.2;
     padding: 2vw 10vw 2vw 10vw;
-    color: rgb(43, 73, 43);
+    color: rgb(66, 104, 66);
 }
 
 section.banner p.foto-prato img {
