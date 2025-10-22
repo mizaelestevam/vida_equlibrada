@@ -221,7 +221,7 @@ section.banner button{
 }
 
 section.banner p a {
-    color: #1565C0;
+    color: #a5b170;
 }
 
 .logo-menu {
@@ -322,8 +322,9 @@ section.banner p img {
 }
 section.banner h4 {
     font-size: 1.5rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0 0 10px 0;
+
 }
 
 /*informacoes*/
@@ -402,7 +403,7 @@ footer {
 }
 footer h3 {
     font-size: 1.8rem;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0 0 10px 0;
     color: rgb(66, 104, 66);;
 }
