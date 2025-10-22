@@ -11,7 +11,7 @@ strong {
 }
 
 body {
-    background-color: bro;
+    background-color: rgb(224, 224, 221);
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     padding: 8px;
@@ -24,6 +24,7 @@ h4,
 h5,
 h6 {
     font-family: "Modern Antiqua", serif;
+    color: rgb(66, 104, 66);
 }
 
 a {
@@ -99,7 +100,7 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.6;
-    color: rgb(185, 181, 181);
+    color: rgb(61, 60, 60);
 }
 
 ol {
