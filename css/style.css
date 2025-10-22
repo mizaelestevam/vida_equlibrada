@@ -397,26 +397,28 @@ footer {
     flex-direction: row;
     gap: 60px;
     padding: 2vw 10vw 2vw 10vw;
-    background: rgb(218, 216, 216);
+    background: rgb(218, 214, 207);
     text-align: left;
 }
 footer h3 {
     font-size: 1.8rem;
     font-weight: bolder;
     margin: 0 0 10px 0;
-    color: #435f80;
+    color: rgb(66, 104, 66);;
 }
 footer p {
-    color: #435f80;
+    color: rgb(91, 121, 40);
     margin: 0 0 10px 0;
 }
 footer h4 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
+    color: rgb(66, 104, 66);
+
 }
 footer nav ul li a {
-    color: #435f80;
+    color: rgb(65, 85, 34);
     font-size: 0.9rem;
     text-decoration: none;
 }
@@ -424,13 +426,13 @@ footer nav ul li {
     margin: 5px 0;
 }
 footer div nav a {
-    color: #435f80;
+    color: rgb(51, 59, 37);
     font-size: 1.5rem;
     padding: 5px;
 }
 footer div h4 {
     margin-bottom: 17px;
-    color: #435f80;;
+    color: rgb(69, 114, 69);
 }
 footer div nav {
     display: flex;
@@ -440,16 +442,16 @@ footer div nav {
 }
 footer div p span {
     font-size: 0.8rem;
-    color: #435f80;
+    color: rgb(18, 68, 18);;
 }
 footer h5 {
     font-size: 1.2rem;
     font-weight: bolder;
     margin: 0 0 10px 0;
-    color: #435f80;
+    color: rgb(66, 104, 66);
 }
 footer div nav a {
-    color: #435f80;;
+    color: rgb(50, 77, 50);
     font-size: 0.9rem;
     font-weight: bolder;
     padding: 5px;
