@@ -219,7 +219,12 @@ section.banner button{
   color: black;
     
 }
-
+section.banner a{
+    color: #a5b170;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
 section.banner p a {
     color: #a5b170;
 }
@@ -300,17 +305,19 @@ section.banner p {
 }
 
 section.banner strong {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 section.banner p a {
-    color: #1565C0;
+    color: #58680f;
     text-align: left;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: underline;
 }
 
 section.banner p.text {
     font-size: 17px;
-
 }
 section.banner p img {
     width: 400px;
@@ -398,7 +405,7 @@ footer {
     flex-direction: row;
     gap: 60px;
     padding: 2vw 10vw 2vw 10vw;
-    background: rgb(218, 214, 207);
+    background: rgb(190, 189, 187);
     text-align: left;
 }
 footer h3 {
@@ -443,6 +450,10 @@ footer div nav {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+footer a{
+    color: #777e58;
+    text-decoration: underline;
 }
 footer div p span {
     font-size: 0.6rem;
