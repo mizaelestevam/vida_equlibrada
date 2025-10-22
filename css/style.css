@@ -11,7 +11,7 @@ strong {
 }
 
 body {
-    background-color: rgb(224, 224, 221);
+    background-color: rgb(253, 253, 238);
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     padding: 8px;
@@ -402,7 +402,7 @@ footer {
     text-align: left;
 }
 footer h3 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: bold;
     margin: 0 0 10px 0;
     color: rgb(66, 104, 66);;
@@ -410,17 +410,18 @@ footer h3 {
 footer p {
     color: rgb(91, 121, 40);
     margin: 0 0 10px 0;
+    font-size: 0.9rem;
 }
 footer h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 10px;
     color: rgb(66, 104, 66);
 
 }
 footer nav ul li a {
-    color: rgb(65, 85, 34);
-    font-size: 0.9rem;
+    color: rgb(66, 104, 66);
+    font-size: 0.8rem;
     text-decoration: none;
 }
 footer nav ul li {
@@ -428,12 +429,14 @@ footer nav ul li {
 }
 footer div nav a {
     color: rgb(51, 59, 37);
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 5px;
 }
-footer div h4 {
+footer div h5 {
     margin-bottom: 17px;
     color: rgb(69, 114, 69);
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 footer div nav {
     display: flex;
@@ -442,27 +445,9 @@ footer div nav {
     gap: 15px;
 }
 footer div p span {
-    font-size: 0.8rem;
-    color: rgb(18, 68, 18);;
-}
-footer h5 {
-    font-size: 1.2rem;
-    font-weight: bolder;
-    margin: 0 0 10px 0;
-    color: rgb(66, 104, 66);
-}
-footer div nav a {
-    color: rgb(50, 77, 50);
-    font-size: 0.9rem;
-    font-weight: bolder;
-    padding: 5px;
-}
-footer div.pagina nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 5px 2px;
+    font-size: 0.6rem;
+    color: rgb(18, 58, 18);
+    font-weight: bold;
 }
 /*celulares*/
 
