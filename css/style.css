@@ -11,7 +11,7 @@ strong {
 }
 
 body {
-    background-color: rgb(214, 214, 193);
+    background-color: rgb(245, 245, 231);
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     padding: 8px;
@@ -272,10 +272,14 @@ section.banner iframe {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-section.banner div.tex p{
+section.banner div.img p{
     display: flex;
     text-align: center;
-    gap: 40px;
+}
+section.banner div.tex p{
+   flex: 1;
+   align-items: center;
+   display: flex;
 }
 
 /*receitas*/
