@@ -11,7 +11,7 @@ strong {
 }
 
 body {
-    background-color: rgba(245, 245, 224, 0.986);
+    background-color: rgba(236, 236, 210, 0.99);
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     padding: 8px;
@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
     font-family: "Modern Antiqua", serif;
-    color: rgb(66, 104, 66);
+    color: rgb(20, 61, 20);
 }
 
 a {
@@ -100,7 +100,7 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1.6;
-    color: rgb(61, 60, 60);
+    color: rgb(66, 62, 62);
 }
 
 ol {
@@ -140,11 +140,11 @@ header h1 {
 }
 
 header nav ul li.atual a {
-    color: #a5b170;
+    color: #aabd57;
 }
 
 header a {
-    color: rgb(79, 172, 79);
+    color: #b4ab79;
 }
 
 header nav img {
@@ -276,10 +276,56 @@ section.banner div.img p{
     display: flex;
     text-align: center;
 }
+section.banner .cardapio {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
 section.banner div.tex p{
-   flex: 1;
-   align-items: center;
-   display: flex;
+   background-color: #f1ebc3;
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1.1rem;
+}
+section.banner .img{
+    width: 28vw;
+    height: auto;
+}
+section.banner .alimentacao{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
+section.banner div.resumo p{
+   background-color: #f1ebc3;
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .yoga{
+    width: 58vw;
+    height: auto;
+}
+section.banner .informacao{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
+section.banner div.saudavel p{
+   background-color: #f1ebc3;
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .fibras{
+    width: 58vw;
+    height: auto;
 }
 
 /*receitas*/
@@ -315,8 +361,8 @@ section.banner p {
 
 section.banner strong {
     font-weight: bold;
+    color: rgb(67, 87, 67);
 }
-
 section.banner p a {
     color: #58680f;
     text-align: left;
@@ -414,14 +460,14 @@ footer {
     flex-direction: row;
     gap: 60px;
     padding: 2vw 10vw 2vw 10vw;
-    background: rgb(190, 189, 187);
+    background: #e4ddb6;
     text-align: left;
 }
 footer h3 {
     font-size: 1.9rem;
     font-weight: bold;
     margin: 0 0 10px 0;
-    color: rgb(66, 104, 66);;
+    color: rgb(57, 85, 57);;
 }
 footer p {
     color: rgb(91, 121, 40);
