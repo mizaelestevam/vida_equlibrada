@@ -11,7 +11,7 @@ strong {
 }
 
 body {
-    background-color: rgb(245, 245, 231);
+    background-color: rgba(245, 245, 224, 0.986);
     font-family: 'Merriweather', sans-serif;
     text-align: center;
     padding: 8px;
