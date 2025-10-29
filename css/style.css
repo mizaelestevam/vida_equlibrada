@@ -117,7 +117,7 @@ header
 
 header {
     padding: 2vw 10vw 2vw 10vw;
-    background-image: url(../images/capa2.jpeg);
+    background-image: url(../images/capa22.png);
     height: 200px;
     display: flex;
     align-items: center;
@@ -141,11 +141,11 @@ header h1 {
 }
 
 header nav ul li.atual a {
-    color: #aabd57;
+    color: white;
 }
 
 header a {
-    color: #b4ab79;
+    color: rgb(88, 189, 88);
 }
 
 header nav img {
@@ -278,7 +278,7 @@ section.banner div.img p{
     text-align: center;
 }
 section.banner .cardapio {
-background-color: #d6d2b8;
+  background-color: #d6d2b8;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -295,6 +295,7 @@ section.banner .img{
     height: auto;
 }
 section.banner .alimentacao{
+  background-color: #d6d2b8;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -302,7 +303,6 @@ section.banner .alimentacao{
   padding: 20px;
 }
 section.banner div.resumo p{
-   background-color: #f1ebc3;
    border-radius: 17px;
    line-height: 1.6;
    font-size: 1rem;
@@ -312,6 +312,7 @@ section.banner .yoga{
     height: auto;
 }
 section.banner .informacao{
+    background-color: #d6d2b8;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -319,7 +320,6 @@ section.banner .informacao{
   padding: 20px;
 }
 section.banner div.saudavel p{
-   background-color: #f1ebc3;
    border-radius: 17px;
    line-height: 1.6;
    font-size: 1rem;
