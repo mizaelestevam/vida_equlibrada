@@ -164,7 +164,7 @@ header nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 10%;
 }
 
 header nav img {
@@ -328,6 +328,40 @@ section.banner .fibras{
     width: 58vw;
     height: auto;
 }
+section.banner .prevencao{
+  background-color: #d6d2b8;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
+section.banner div.pre p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .salada{
+    width: 58vw;
+    height: auto;
+}
+section.banner .sono{
+  background-color: #d6d2b8;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
+section.banner div.dicas p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .yoga{
+    width: 58vw;
+    height: auto;
+}
 
 /*receitas*/
 section.receitas {
@@ -348,9 +382,9 @@ section.banner h1 {
 }
 
 section.banner p.foto-prato img {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -391,16 +425,8 @@ section.banner h4 {
 }
 
 /*informacoes*/
-
 section.informacoes{
     padding: 2vw 10vw 2vw 10vw;
-}
-
-section.informacoes p strong {
-    font-weight: bolder;
-}
-section.informacoes p {
-    margin: 6px 3px 6px 3px;
 }
 
 
