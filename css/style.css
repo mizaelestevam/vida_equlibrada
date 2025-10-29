@@ -278,14 +278,14 @@ section.banner div.img p{
     text-align: center;
 }
 section.banner .cardapio {
+background-color: #d6d2b8;
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
+  border-radius: 15px;
+  padding: 2vw 2vw 2vw 2vw ;
 }
 section.banner div.tex p{
-   background-color: #f1ebc3;
    border-radius: 17px;
    line-height: 1.6;
    font-size: 1.1rem;
