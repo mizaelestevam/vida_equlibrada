@@ -223,7 +223,6 @@ section.banner button{
 section.banner a{
     color: #a5b170;
     font-weight: bold;
-    text-decoration: underline;
     font-size: 0.9rem;
 }
 section.banner p a {
@@ -361,6 +360,48 @@ section.banner div.dicas p{
 section.banner .yoga{
     width: 58vw;
     height: auto;
+}
+section.banner .nutricao{
+  background-color: #d6d2b8;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
+section.banner div.alimentacao p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .especialistas{
+    width: 58vw;
+    height: auto;
+}
+section.banner .qualidade{
+  background-color: #d6d2b8;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+}
+section.banner div.equilibrio p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .pratos{
+    width: 58vw;
+    height: auto;
+}
+section.banner button {
+    background-color: #a39d74; 
+    color: white;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
 }
 
 /*receitas*/
