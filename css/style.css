@@ -293,6 +293,7 @@ section.banner div.tex p{
 section.banner .img{
     width: 28vw;
     height: auto;
+    border-radius: 15px;
 }
 section.banner .alimentacao{
   background-color: #d6d2b8;
