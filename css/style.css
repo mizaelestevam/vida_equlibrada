@@ -403,6 +403,27 @@ section.banner button {
     font-size: 0.7rem;
     font-weight: bold;
 }
+section.banner .cardapio2{
+  background-color: #d6d2b8;
+  display: flex;
+  gap: 30px;
+  border-radius: 22px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 0 8px #374207;
+  justify-content: center;
+}
+section.banner div.lactose p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+   padding: 2vw 2vw 2vw 2vw;
+}
+section.banner .comida{
+    width: 58vw;
+    height: auto;
+    object-fit: cover;
+}
 
 /*receitas*/
 section.receitas {
