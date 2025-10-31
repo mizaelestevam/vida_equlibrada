@@ -279,7 +279,7 @@ section.banner div.img p{
 section.banner .cardapio {
   background-color: #d6d2b8;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   border-radius: 15px;
   padding: 2vw 2vw 2vw 2vw ;
