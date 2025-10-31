@@ -283,6 +283,7 @@ section.banner .cardapio {
   gap: 20px;
   border-radius: 15px;
   padding: 2vw 2vw 2vw 2vw ;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.tex p{
    border-radius: 17px;
@@ -300,6 +301,7 @@ section.banner .alimentacao{
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.resumo p{
    border-radius: 17px;
@@ -317,6 +319,7 @@ section.banner .informacao{
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.saudavel p{
    border-radius: 17px;
@@ -334,6 +337,7 @@ section.banner .prevencao{
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.pre p{
    border-radius: 17px;
@@ -351,6 +355,7 @@ section.banner .sono{
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.dicas p{
    border-radius: 17px;
@@ -368,6 +373,7 @@ section.banner .nutricao{
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.alimentacao p{
    border-radius: 17px;
@@ -385,6 +391,7 @@ section.banner .qualidade{
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
+  box-shadow: 0 0 8px #374207;
 }
 section.banner div.equilibrio p{
    border-radius: 17px;
