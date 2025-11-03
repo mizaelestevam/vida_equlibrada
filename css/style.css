@@ -432,7 +432,40 @@ section.banner .comida{
     height: auto;
     object-fit: cover;
 }
-
+section.banner .trocas{
+    background-color: #d6d2b8;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 0 8px #374207;
+}
+section.banner div.textos p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .saudavel{
+    width: 58vw;
+    height: auto;
+}
+section.banner .dapio{
+  background-color: #d6d2b8;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 0 8px #374207;
+}
+section.banner div.forte p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .equilibrio{
+    width: 58vw;
+    height: auto;
+}
 /*receitas*/
 section.receitas {
     justify-content: center;
