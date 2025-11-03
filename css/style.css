@@ -314,8 +314,7 @@ section.banner .yoga{
     height: auto;
 }
 section.banner .informacao{
-    background-color: #d6d2b8;
-  display: flex;
+  background-color: #d6d2b8;
   align-items: flex-start;
   gap: 20px;
   border-radius: 22px;
@@ -333,7 +332,6 @@ section.banner .fibras{
 }
 section.banner .prevencao{
   background-color: #d6d2b8;
-  display: flex;
   align-items: flex-start;
   gap: 20px;
   border-radius: 22px;
@@ -351,7 +349,7 @@ section.banner .salada{
 }
 section.banner .sono{
   background-color: #d6d2b8;
-  display: flex;
+  
   align-items: flex-start;
   gap: 20px;
   border-radius: 22px;
@@ -463,6 +461,40 @@ section.banner div.forte p{
    font-size: 1rem;
 }
 section.banner .equilibrio{
+    width: 58vw;
+    height: auto;
+}
+section.banner .fortalece{
+  background-color: #d6d2b8;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 0 8px #374207;
+}
+section.banner div.sistema p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .imune{
+    width: 58vw;
+    height: auto;
+}
+section.banner .saudave{
+  background-color: #d6d2b8;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 0 8px #374207;
+}
+section.banner div.melhor p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+}
+section.banner .c{
     width: 58vw;
     height: auto;
 }
