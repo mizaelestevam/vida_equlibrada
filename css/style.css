@@ -558,6 +558,20 @@ section.banner h4 {
     margin: 0 0 10px 0;
 
 }
+section.banner .receitas{
+    background-color: #dad6bf;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    padding: 3vw 5vw 3vw 5vw;
+}
+section.banner .receitas a button{
+    align-items: center;
+    padding: 1vw 3vw 1vw 3vw;
+}
+section.banner img{
+    border-radius: 30px;
+}
 
 /*informacoes*/
 section.informacoes{
