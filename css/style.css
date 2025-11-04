@@ -498,6 +498,35 @@ section.banner .c{
     width: 58vw;
     height: auto;
 }
+section.banner .receitas{
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    padding: 3vw 5vw 3vw 5vw;
+}
+section.banner .receitas li a button{
+    align-items: center;
+    padding: 0vw 2vw 0vw 2vw;
+}
+section.banner img{
+    border-radius: 24px;
+}
+section.banner ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 5vw 1vw 5vw 1vw;
+    list-style: none;
+}
+section.banner ul li{
+    background-color: #d6d2b8;
+    border-radius: 15px;
+    box-shadow:  0 0 8px #374207;
+}
+section.banner ul li h4{
+    font-size: 0.8rem;
+}
+
 /*receitas*/
 section.receitas {
     justify-content: center;
@@ -558,21 +587,6 @@ section.banner h4 {
     margin: 0 0 10px 0;
 
 }
-section.banner .receitas{
-    background-color: #dad6bf;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    padding: 3vw 5vw 3vw 5vw;
-}
-section.banner .receitas a button{
-    align-items: center;
-    padding: 1vw 3vw 1vw 3vw;
-}
-section.banner img{
-    border-radius: 30px;
-}
-
 /*informacoes*/
 section.informacoes{
     padding: 2vw 10vw 2vw 10vw;
