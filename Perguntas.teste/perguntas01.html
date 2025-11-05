@@ -1,0 +1,28 @@
+<meta charset="UFT-8">
+<script>
+
+    const usuario = Number(prompt(`Quantas refeições completas você come por dia?`));
+
+
+    if (usuario >= 3 && usuario <= 5) {
+        alert(`Parabéns você come o ideal por dia`);
+
+    } else if (usuario >= 6) {
+        alert(`Essa quantidade pode ser prejudicial para a saúde, e é recomendado apenas para pessoas que gostariam de ganhar massa corporal.`);
+        window.location.href = "https://www.tuasaude.com/dieta-para-aumentar-a-massa-muscular/";
+
+    } else if (usuario <= 0) {
+        alert(`Insira um valor valido!`);
+        
+
+    } else if (usuario < 3) {
+        alert(`Você está comento menos que o recomendado`);
+        window.location.href = "https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/";
+
+    }
+
+
+
+
+
+</script>
