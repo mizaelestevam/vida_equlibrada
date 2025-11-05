@@ -306,6 +306,7 @@ section.banner .alimentacao{
   border-radius: 22px;
   padding: 20px;
   box-shadow: 0 0 8px #374207;
+   margin-right: 100px;
 }
 section.banner div.resumo p{
    border-radius: 17px;
@@ -501,15 +502,14 @@ section.banner .c{
     width: 58vw;
     height: auto;
 }
-section.banner .receitas{
-    border-radius: 60px;
+section.banner .manual{
+    border-radius: 80vw;
     text-align: center;
     display: flex;
-    padding: 3vw 5vw 3vw 5vw;
 }
 section.banner .receitas li a button{
     align-items: center;
-    padding: 0vw 2vw 0vw 2vw;
+    padding: 10vw 0vw 10vw 0vw;
 }
 section.banner img{
     border-radius: 15px;
