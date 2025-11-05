@@ -314,7 +314,7 @@ section.banner div.resumo p{
    font-size: 1rem;
 }
 section.banner .yoga{
-    width: 58vw;
+    width: 38px;
     height: auto;
 }
 section.banner .informacao{
@@ -435,7 +435,8 @@ section.banner .comida{
     object-fit: cover;
 }
 section.banner .trocas{
-background-color: #d6d2b8;
+  background-color: #d6d2b8;
+  display: flex;
   align-items: flex-start;
   gap: 20px;
   border-radius: 22px;
@@ -453,11 +454,13 @@ section.banner .saudavel{
 }
 section.banner .dapio{
   background-color: #d6d2b8;
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
   box-shadow: 0 0 8px #374207;
+   margin-right: 100px;
 }
 section.banner div.forte p{
    border-radius: 17px;
@@ -465,7 +468,7 @@ section.banner div.forte p{
    font-size: 1rem;
 }
 section.banner .equilibrio{
-    width: 58vw;
+    width: 68;
     height: auto;
 }
 section.banner .fortalece{
@@ -507,12 +510,13 @@ section.banner .manual{
     text-align: center;
     display: flex;
 }
-section.banner .receitas li a button{
+section.banner .manual ul li a button{
     align-items: center;
-    padding: 10vw 0vw 10vw 0vw;
+    padding: 0vw 1vw 0vw 1vw;
+    font-size: 0.7rem;
 }
 section.banner img{
-    border-radius: 15px;
+    border-radius: 12px;
 }
 section.banner ul{
     display: flex;
@@ -527,9 +531,29 @@ section.banner ul li{
     box-shadow:  0 0 8px #374207;
 }
 section.banner ul li h4{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
-
+section.banner .atividade{
+  background-color: #d6d2b8;
+  display: flex;
+  gap: 10px;
+  border-radius: 22px;
+  padding: 2vw 3vw;
+  display: flex;
+  box-shadow: 0 0 8px #374207;
+  justify-content: center;
+}
+section.banner div.pratica p{
+   border-radius: 17px;
+   line-height: 1.6;
+   font-size: 1rem;
+   padding: 3px 5px;
+}
+section.banner .fisica{
+    width: 58vw;
+    height: auto;
+    object-fit: cover;
+}
 /*receitas*/
 section.receitas {
     justify-content: center;
