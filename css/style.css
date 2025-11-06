@@ -513,7 +513,7 @@ section.banner .manual{
 section.banner .manual ul li a button{
     align-items: center;
     padding: 0vw 1vw 0vw 1vw;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 section.banner img{
     border-radius: 12px;
@@ -531,7 +531,7 @@ section.banner ul li{
     box-shadow:  0 0 8px #374207;
 }
 section.banner ul li h4{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 section.banner .atividade{
   background-color: #d6d2b8;
