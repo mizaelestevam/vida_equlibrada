@@ -212,13 +212,9 @@ section.banner .textos{
     display: flex;
     align-items: flex-start;
 }
-section.banner h1 {
-    color: black;
-}
 section.banner button{
   background-color: #F6F6F6;
   color: black;
-    
 }
 section.banner .vida p{
     line-height: 1.5;
@@ -231,7 +227,6 @@ section.banner a{
 section.banner p a {
     color: #a5b170;
 }
-
 .logo-menu {
     display: flex;
     flex-direction: row;
@@ -239,7 +234,6 @@ section.banner p a {
     gap: 30px;
     margin-bottom: 20px;
 }
-
 .logo-menu ul {
     display: flex;
     flex-wrap: wrap;
@@ -248,32 +242,10 @@ section.banner p a {
     padding: 0;
     list-style: none;
 }
-
 .logo-menu img {
     width: 120px;
     height: auto;
     border-radius: 50%;
-}
-
-section.banner iframe {
-    flex: 1 1 300px;
-    max-width: 400px;
-    height: 300px;
-}
-
-.video-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-
-.video-container video {
-    width: 45%;
-    max-width: 600px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 section.banner div.img p{
     display: flex;
@@ -565,20 +537,12 @@ section.receitas {
 /*vida equilibrada*/
 
 section.banner h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-align: center;
     line-height: 1.2;
     padding: 2vw 10vw 2vw 10vw;
     color: rgb(66, 104, 66);
 }
-
-section.banner p.foto-prato img {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 60%;
-    height: auto;
-}
-
 section.banner p {
     margin: 4px 0px 4px 0px;
     line-height: 25px;
@@ -629,10 +593,9 @@ section.banner3 p img {
 section.banner3 h1,
 h2 {
     text-align: center;
-    font-size: 2rem;
+    line-height:  3;
 }
 section.banner3 p {
-    margin: 4px 0px 4px 0px;
     padding: 4px 3px 4px 3px;
     line-height: 1.3;
 }
