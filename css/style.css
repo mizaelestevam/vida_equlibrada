@@ -117,7 +117,7 @@ header
 
 header {
     padding: 2vw 10vw 2vw 10vw;
-    background-image: url(../images/capa22.png);
+    background-image: url(/images/greentable-bannersite-jan2024-659d9a5b97e65.png);
     height: 200px;
     display: flex;
     align-items: center;
@@ -231,7 +231,7 @@ section.banner p a {
     flex-direction: row;
     align-items: center;
     gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .logo-menu ul {
     display: flex;
@@ -680,6 +680,13 @@ footer div p span {
         display: block;
     }
 
+    section.banner .alimentacao{
+        flex-wrap: wrap;
+        margin-right: 2vw;
+    }
+    section.banner .manual ul{
+    flex-wrap: wrap;        
+    }
     footer{
         display: block;
     }
