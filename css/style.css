@@ -200,7 +200,6 @@ header nav ul li:hover ul {
 /*banner*/
 
 section.banner {
-    display: flex;
     padding: 2vw 10vw 2vw 10vw;
     align-items: center;
     margin-top: 40px;
