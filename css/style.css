@@ -117,7 +117,7 @@ header
 
 header {
     padding: 2vw 10vw 2vw 10vw;
-    background-image: url(/images/greentable-bannersite-jan2024-659d9a5b97e65.png);
+    background-color: #a1997f;
     height: 200px;
     display: flex;
     align-items: center;
@@ -534,6 +534,9 @@ section.noticias ul li{
 section.noticias ul li h4{
     font-size: 0.8rem;
 }
+
+/*Vida-equilibrada*/
+
 section.banner h1 {
     font-size: 2.6rem;
     text-align: center;
