@@ -476,34 +476,6 @@ section.banner .c{
     width: 58vw;
     height: auto;
 }
-section.banner .manual{
-    border-radius: 80vw;
-    text-align: center;
-    display: flex;
-}
-section.banner .manual ul li a button{
-    align-items: center;
-    padding: 0vw 1vw 0vw 1vw;
-    font-size: 0.6rem;
-}
-section.banner img{
-    border-radius: 12px;
-}
-section.banner ul{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    padding: 5vw 1vw 5vw 1vw;
-    list-style: none;
-}
-section.banner ul li{
-    background-color: #d6d2b8;
-    border-radius: 15px;
-    box-shadow:  0 0 8px #374207;
-}
-section.banner ul li h4{
-    font-size: 0.8rem;
-}
 section.banner .atividade{
   background-color: #d6d2b8;
   display: flex;
@@ -533,10 +505,37 @@ section.receitas {
     margin: 10px 5px;
     background-color: #F6F6F6;
 }
-/*vida equilibrada*/
-
+/*noticias*/
+section.noticias .manual{
+    border-radius: 80vw;
+    text-align: center;
+    display: flex;
+}
+section.noticias .manual ul li a button{
+    align-items: center;
+    padding: 0vw 1vw 0vw 1vw;
+    font-size: 0.6rem;
+}
+section.noticias img{
+    border-radius: 12px;
+}
+section.noticias ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 5vw 1vw 5vw 1vw;
+    list-style: none;
+}
+section.noticias ul li{
+    background-color: #d6d2b8;
+    border-radius: 15px;
+    box-shadow:  0 0 8px #374207;
+}
+section.noticias ul li h4{
+    font-size: 0.8rem;
+}
 section.banner h1 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     text-align: center;
     line-height: 1.2;
     padding: 2vw 10vw 2vw 10vw;
@@ -592,7 +591,8 @@ section.banner3 p img {
 section.banner3 h1,
 h2 {
     text-align: center;
-    line-height:  3;
+    line-height:  1.6;
+    font-size: 1.7rem;
 }
 section.banner3 p {
     padding: 4px 3px 4px 3px;
@@ -684,7 +684,10 @@ footer div p span {
         flex-wrap: wrap;
         margin-right: 2vw;
     }
-    section.banner .manual ul{
+    section.banner h1{
+        flex-wrap: wrap;
+    }
+    section.noticias .manual ul{
     flex-wrap: wrap;        
     }
     footer{
