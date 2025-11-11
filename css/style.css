@@ -82,13 +82,15 @@ ol {
     list-style-type: disc;
     margin-left: 50px;
 }
+
 .equipe {
     border-radius: 50px;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /*=============
 header
 ==============*/
@@ -100,19 +102,20 @@ header {
     display: flex;
     align-items: center;
 }
-    header nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    header ul {
-        display: flex;
-    }
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    header li {
-        margin: 6px 6px 6px 6px;
-    }
+header ul {
+    display: flex;
+}
+
+header li {
+    margin: 6px 6px 6px 6px;
+}
 
 header h1 {
     font-size: 3rem;
@@ -120,12 +123,12 @@ header h1 {
 
 header nav ul li.atual a {
     color: white;
-    
+
 }
 
 header a {
     color: rgb(122, 105, 26);
-  
+
 }
 
 header nav img {
@@ -187,25 +190,31 @@ section.banner {
     gap: 20px;
     justify-content: flex-start;
 }
-section.banner .textos{
+
+section.banner .textos {
     display: flex;
     align-items: flex-start;
 }
-section.banner button{
-  background-color: #F6F6F6;
-  color: black;
+
+section.banner button {
+    background-color: #F6F6F6;
+    color: black;
 }
-section.banner .vida p{
+
+section.banner .vida p {
     line-height: 1.5;
 }
-section.banner a{
+
+section.banner a {
     color: #a5b170;
     font-weight: bold;
     font-size: 0.9rem;
 }
+
 section.banner p a {
     color: #a5b170;
 }
+
 .logo-menu {
     display: flex;
     flex-direction: row;
@@ -213,6 +222,7 @@ section.banner p a {
     gap: 30px;
     margin-bottom: 0px;
 }
+
 .logo-menu ul {
     display: flex;
     flex-wrap: wrap;
@@ -221,263 +231,306 @@ section.banner p a {
     padding: 0;
     list-style: none;
 }
+
 .logo-menu img {
     width: 120px;
     height: auto;
     border-radius: 50%;
 }
-section.banner div.img p{
+
+section.banner div.img p {
     display: flex;
     text-align: center;
 }
+
 section.banner .cardapio {
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-radius: 15px;
-  padding: 2vw 2vw 2vw 2vw ;
-  box-shadow: 0 0 8px #374207;
+    background-color: #d6d2b8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 2vw 2vw 2vw 2vw;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.tex p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1.1rem;
+
+section.banner div.tex p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
-section.banner .img{
+
+section.banner .img {
     width: 28vw;
     height: auto;
     border-radius: 15px;
 }
-section.banner .alimentacao{
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
-   margin-right: 100px;
+
+section.banner .alimentacao {
+    background-color: #d6d2b8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
+    margin-right: 100px;
 }
-section.banner div.resumo p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.resumo p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .yoga{
+
+section.banner .yoga {
     width: 38px;
     height: auto;
 }
-section.banner .informacao{
-  background-color: #d6d2b8;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .informacao {
+    background-color: #d6d2b8;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.saudavel p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.saudavel p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .fibras{
+
+section.banner .fibras {
     width: 58vw;
     height: auto;
 }
-section.banner .prevencao{
-  background-color: #d6d2b8;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .prevencao {
+    background-color: #d6d2b8;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.pre p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.pre p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .salada{
+
+section.banner .salada {
     width: 58vw;
     height: auto;
 }
-section.banner .sono{
-  background-color: #d6d2b8;
-  
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .sono {
+    background-color: #d6d2b8;
+
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.dicas p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.dicas p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .yoga{
+
+section.banner .yoga {
     width: 58vw;
     height: auto;
 }
-section.banner .nutricao{
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .nutricao {
+    background-color: #d6d2b8;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.alimentaca p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.alimentaca p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .especialistas{
+
+section.banner .especialistas {
     width: 58vw;
     height: auto;
 }
-section.banner .qualidade{
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .qualidade {
+    background-color: #d6d2b8;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.equilibri p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.equilibri p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .pratos{
+
+section.banner .pratos {
     width: 58vw;
     height: auto;
 }
+
 section.banner button {
-    background-color: #a39d74; 
+    background-color: #a39d74;
     color: white;
     padding: 1vw 1vw 1vw 1vw;
     border-radius: 10px;
     font-size: 0.7rem;
     font-weight: bold;
 }
-section.banner .cardapio2{
-  background-color: #d6d2b8;
-  display: flex;
-  gap: 10px;
-  border-radius: 22px;
-  padding: 2vw 3vw;
-  display: flex;
-  box-shadow: 0 0 8px #374207;
-  justify-content: center;
+
+section.banner .cardapio2 {
+    background-color: #d6d2b8;
+    display: flex;
+    gap: 10px;
+    border-radius: 22px;
+    padding: 2vw 3vw;
+    display: flex;
+    box-shadow: 0 0 8px #374207;
+    justify-content: center;
 }
-section.banner div.lactose p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
-   padding: 3px 5px;
-   text-align: center;
+
+section.banner div.lactose p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 3px 5px;
+    text-align: center;
 }
-section.banner .comida{
+
+section.banner .comida {
     width: 58vw;
     height: auto;
     object-fit: cover;
 }
-section.banner .trocas{
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .trocas {
+    background-color: #d6d2b8;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.textos p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.textos p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .saudavel{
+
+section.banner .saudavel {
     width: 58vw;
     height: auto;
 }
-section.banner .dapio{
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
-   margin-right: 100px;
+
+section.banner .dapio {
+    background-color: #d6d2b8;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
+    margin-right: 100px;
 }
-section.banner div.forte p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.forte p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .equilibrio{
+
+section.banner .equilibrio {
     width: 68;
     height: auto;
 }
-section.banner .fortalece{
-  background-color: #d6d2b8;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .fortalece {
+    background-color: #d6d2b8;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.sistema p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.sistema p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .imune{
+
+section.banner .imune {
     width: 58vw;
     height: auto;
 }
-section.banner .saudave{
-  background-color: #d6d2b8;
-  align-items: flex-start;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
+
+section.banner .saudave {
+    background-color: #d6d2b8;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 22px;
+    padding: 20px;
+    box-shadow: 0 0 8px #374207;
 }
-section.banner div.melhor p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
+
+section.banner div.melhor p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
 }
-section.banner .c{
+
+section.banner .c {
     width: 58vw;
     height: auto;
 }
-section.banner .atividade{
-  background-color: #d6d2b8;
-  display: flex;
-  gap: 10px;
-  border-radius: 22px;
-  padding: 2vw 3vw;
-  display: flex;
-  box-shadow: 0 0 8px #374207;
-  justify-content: center;
+
+section.banner .atividade {
+    background-color: #d6d2b8;
+    display: flex;
+    gap: 10px;
+    border-radius: 22px;
+    padding: 2vw 3vw;
+    display: flex;
+    box-shadow: 0 0 8px #374207;
+    justify-content: center;
 }
-section.banner div.pratica p{
-   border-radius: 17px;
-   line-height: 1.6;
-   font-size: 1rem;
-   padding: 3px 5px;
+
+section.banner div.pratica p {
+    border-radius: 17px;
+    line-height: 1.6;
+    font-size: 1rem;
+    padding: 3px 5px;
 }
-section.banner .fisica{
+
+section.banner .fisica {
     width: 58vw;
     height: auto;
     object-fit: cover;
 }
+
 /*receitas*/
 section.receitas {
     justify-content: center;
@@ -486,52 +539,63 @@ section.receitas {
     margin: 10px 5px;
     background-color: #F6F6F6;
 }
+
 /*noticias*/
-section.noticias .manual{
+section.noticias .manual {
     border-radius: 80vw;
     text-align: center;
     display: flex;
 }
-section.noticias .manual ul li a button{
+
+section.noticias .manual ul li a button {
     align-items: center;
     padding: 0vw 1vw 0vw 1vw;
     font-size: 0.6rem;
 }
-section.noticias img{
+
+section.noticias img {
     border-radius: 12px;
 }
-section.noticias ul{
+
+section.noticias ul {
     display: flex;
     gap: 30px;
     justify-content: center;
     padding: 5vw 1vw 5vw 1vw;
     list-style: none;
 }
-section.noticias ul li{
+
+section.noticias ul li {
     background-color: #d6d2b8;
     border-radius: 15px;
-    box-shadow:  0 0 8px #374207;
+    box-shadow: 0 0 8px #374207;
 }
-section.noticias ul li h4{
+
+section.noticias ul li h4 {
     font-size: 0.8rem;
 }
+
 section.noticias .exemplos {
     background-color: #c4b06a;
     border-radius: 20px;
     padding: 2vw 10vw 2vw 10vw;
     box-shadow: #58680f;
+    width: 80;
+    margin: 10px auto;
 }
-section.noticias .exemplos p{
-   text-align: center;
-   font-size: 0.9rem;
-   padding: 2vw 3vw 2vw 3vw;
-   font-weight: bold;
+
+section.noticias .exemplos p {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2vw 3vw 2vw 3vw;
+    font-weight: bold;
 }
-section.noticias .exemplos h3{
-   text-align: center;
-   font-weight: bold;
-   font-size: 1.5rem;
-   line-height: 1.5;
+
+section.noticias .exemplos h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 /*Vida-equilibrada*/
@@ -543,6 +607,7 @@ section.banner h1 {
     padding: 2vw 10vw 2vw 10vw;
     color: rgb(66, 104, 66);
 }
+
 section.banner p {
     margin: 4px 0px 4px 0px;
     line-height: 25px;
@@ -553,6 +618,7 @@ section.banner strong {
     font-weight: bold;
     color: rgb(67, 87, 67);
 }
+
 section.banner p a {
     color: #58680f;
     text-align: left;
@@ -564,6 +630,7 @@ section.banner p a {
 section.banner p.text {
     font-size: 17px;
 }
+
 section.banner p img {
     width: 400px;
     height: auto;
@@ -572,6 +639,7 @@ section.banner p img {
     margin-left: auto;
     margin-right: auto;
 }
+
 section.banner h4 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -593,9 +661,10 @@ section.banner3 p img {
 section.banner3 h1,
 h2 {
     text-align: center;
-    line-height:  1.6;
+    line-height: 1.6;
     font-size: 1.7rem;
 }
+
 section.banner3 p {
     padding: 4px 3px 4px 3px;
     line-height: 1.3;
@@ -609,6 +678,7 @@ section.banner4 p img {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*footer*/
 footer {
     display: flex;
@@ -620,17 +690,21 @@ footer {
     background: #d6d2b8;
     text-align: left;
 }
+
 footer h3 {
     font-size: 1.9rem;
     font-weight: bold;
     margin: 0 0 10px 0;
-    color: rgb(57, 85, 57);;
+    color: rgb(57, 85, 57);
+    ;
 }
+
 footer p {
     color: rgb(57, 85, 57);
     margin: 0 0 10px 0;
     font-size: 0.9rem;
 }
+
 footer h4 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -638,38 +712,46 @@ footer h4 {
     color: rgb(57, 85, 57);
 
 }
+
 footer nav ul li a {
     color: rgb(57, 85, 57);
     font-size: 0.8rem;
 }
+
 footer nav ul li {
     margin: 5px 0;
 }
+
 footer div nav a {
     color: rgb(57, 85, 57);
     font-size: 1rem;
     padding: 5px;
 }
+
 footer div h5 {
     margin-bottom: 17px;
     color: rgb(57, 85, 57);
     font-size: 1.4rem;
     font-weight: bold;
 }
+
 footer div nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-footer a{
+
+footer a {
     color: rgb(57, 85, 57);
 }
+
 footer div p span {
     font-size: 0.6rem;
     color: rgb(57, 85, 57);
     font-weight: bold;
 }
+
 /*celulares*/
 
 @media(max-width: 768px) {
@@ -678,21 +760,24 @@ footer div p span {
     }
 
 
-    header nav ul{
+    header nav ul {
         display: block;
     }
 
-    section.banner .alimentacao{
+    section.banner .alimentacao {
         flex-wrap: wrap;
         margin-right: 2vw;
     }
-    section.banner h1{
+
+    section.banner h1 {
         flex-wrap: wrap;
     }
-    section.noticias .manual ul{
-    flex-wrap: wrap;        
+
+    section.noticias .manual ul {
+        flex-wrap: wrap;
     }
-    footer{
+
+    footer {
         display: block;
     }
 }
