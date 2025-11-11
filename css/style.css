@@ -516,14 +516,16 @@ section.noticias ul li h4{
     font-size: 0.8rem;
 }
 section.noticias .exemplos {
-    background-color: #b9af8c;
+    background-color: #c4b06a;
     border-radius: 20px;
     padding: 2vw 10vw 2vw 10vw;
+    box-shadow: #58680f;
 }
 section.noticias .exemplos p{
    text-align: center;
    font-size: 0.9rem;
-   padding: 2vw 10vw 2vw 10vw;
+   padding: 2vw 3vw 2vw 3vw;
+   font-weight: bold;
 }
 section.noticias .exemplos h3{
    text-align: center;
