@@ -85,6 +85,10 @@ ol {
 .equipe {
     border-radius: 50px;
 }
+
+a{
+    text-decoration: none;
+}
 /*=============
 header
 ==============*/
