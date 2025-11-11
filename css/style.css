@@ -530,6 +530,43 @@ section.banner .fisica {
     height: auto;
     object-fit: cover;
 }
+section.banner .exemplos {
+    background-color: #c4b06a;
+    border-radius: 20px;
+    padding: 2vw 10vw 2vw 10vw;
+    box-shadow: 1px #58680f;
+    width: 80;
+    margin: 10px auto;
+}
+
+section.banner .exemplos p {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2vw 3vw 2vw 3vw;
+    font-weight: bold;
+}
+
+section.banner .exemplos h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+section.banner .imagens{
+    background: #b9af8c;
+    box-shadow: 1px #a5b170;
+    border-radius: 20px;
+    gap: 20px;
+    display: flex;
+}
+section.banner .imagens a{
+    background-color: #b9af8c;
+    color: white;
+}
+section.banner .imagens h4{
+   font-weight: bold;
+   font-size: 1rem;
+}
 
 /*receitas*/
 section.receitas {
@@ -573,29 +610,6 @@ section.noticias ul li {
 
 section.noticias ul li h4 {
     font-size: 0.8rem;
-}
-
-section.noticias .exemplos {
-    background-color: #c4b06a;
-    border-radius: 20px;
-    padding: 2vw 10vw 2vw 10vw;
-    box-shadow: #58680f;
-    width: 80;
-    margin: 10px auto;
-}
-
-section.noticias .exemplos p {
-    text-align: center;
-    font-size: 0.9rem;
-    padding: 2vw 3vw 2vw 3vw;
-    font-weight: bold;
-}
-
-section.noticias .exemplos h3 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1.5;
 }
 
 /*Vida-equilibrada*/
