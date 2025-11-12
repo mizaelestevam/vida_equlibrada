@@ -179,7 +179,10 @@ header nav ul li ul {
 header nav ul li:hover ul {
     display: block;
 }
-
+header ul li .pergunta a{
+    background-color: #374207;
+    color: white;
+} 
 /*banner*/
 
 section.banner {
