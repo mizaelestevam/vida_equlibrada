@@ -207,8 +207,8 @@ section.banner button {
 
 section.banner .vida p {
     line-height: 1.5;
+    
 }
-
 section.banner a {
     color: #a5b170;
     font-weight: bold;
@@ -615,7 +615,7 @@ section.noticias .manual a{
 section.noticias  p{
     align-items: center;
     padding: 1vw 3vw 1vw 3vw;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     
 }
 section.noticias img {
