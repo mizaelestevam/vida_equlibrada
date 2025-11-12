@@ -1,16 +1,16 @@
 <script>
-    const agua = Number(prompt(`Quantos litros de água você costuma consumir por dia?`));
+    const agua = Number(prompt(`Quantos litros de água você costuma beber por dia?`));
 
     if (agua >= 2 && agua <= 7) {
         alert(`Excelente, você consome a quantidade adequada de água para o corpo humano, se quiser um resultado mais preciso acesse:`)
         window.location.href ="https://www.tuasaude.com/beber-agua/#goog_rewarded";
 
     } else if (agua > 8) {
-        alert(`Você consome um pouco mais do que e recomendado, isso pode ser um pouco prejudicial.\n Para mais informações sobre:`);
+        alert(`Você consome um pouco mais do que o recomendado, isso pode ser prejudicial para sua saúde.\n Para mais informações sobre:`);
          window.location.href = "https://www.uol.com.br/vivabem/noticias/redacao/2021/09/21/bebo-8-litros-de-agua-por-dia-essa-quantidade-e-prejudicial-a-saude.htm";
 
     } else if (agua < 2) {
-        alert(`Você consome menos que é o recomendado de 2 e 3,7 litros por dia, isso pode te prejudicar no dia a dia.\n Veja mais:`);
+        alert(`Você consome menos que o recomendado que é 2 a 3,7 litros por dia, isso pode te prejudicar no dia a dia.\n Veja mais:`);
        
         window.location.href = "https://salve.com.br/medicina/o-que-acontece-com-seu-corpo-quando-voce-toma-pouca-agua/";
     } else {
