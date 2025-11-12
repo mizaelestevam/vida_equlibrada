@@ -97,7 +97,7 @@ header
 
 header {
     padding: 2vw 8vw 2vw 8vw;
-    background-color: #b9af8c;
+    background-color: #cfc6a5;
     height: 200px;
     display: flex;
     align-items: center;
@@ -127,7 +127,8 @@ header nav ul li.atual a {
 }
 
 header a {
-    color: rgb(122, 105, 26);
+    color: rgb(61, 92, 62);
+    
 
 }
 
@@ -534,39 +535,44 @@ section.banner .fisica {
     object-fit: cover;
 }
 section.banner .exemplos {
-    background-color: #c4b06a;
+    background-color: #c5bd9f;
     border-radius: 20px;
     padding: 2vw 10vw 2vw 10vw;
     box-shadow: 1px #58680f;
     width: 80;
-    margin: 10px auto;
+    margin: 4vw ; 
+    text-align: left;
 }
 
 section.banner .exemplos p {
     text-align: center;
     font-size: 0.9rem;
-    padding: 2vw 3vw 2vw 3vw;
     font-weight: bold;
+    align-items: center;
 }
 
 section.banner .exemplos h3 {
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
+    
 }
 section.banner .imagens{
     background: #b9af8c;
     box-shadow: 1px #a5b170;
-    border-radius: 20px;
+    border-radius: 12vw;
     gap: 20px;
     display: flex;
 }
+section.banner .ultra{
+   border-radius: 20vw;
+}
 section.banner .imagens a{
-    background-color: #b9af8c;
+    background-color: #8f7d3c;
     color: white;
 }
-section.banner .imagens h4{
+section.banner .texs h4{
    font-weight: bold;
    font-size: 1rem;
 }
