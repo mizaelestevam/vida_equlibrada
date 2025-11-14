@@ -180,10 +180,7 @@ header nav ul li ul {
 header nav ul li:hover ul {
     display: block;
 }
-header ul li .pergunta a{
-    background-color: #374207;
-    color: white;
-} 
+
 /*banner*/
 
 section.banner {
@@ -199,12 +196,6 @@ section.banner .textos {
     display: flex;
     align-items: flex-start;
 }
-
-section.banner button {
-    background-color: #F6F6F6;
-    color: black;
-}
-
 section.banner .vida p {
     line-height: 1.5;
     
@@ -394,12 +385,13 @@ section.banner .pratos {
     height: auto;
 }
 
-section.banner button {
-    background-color: #a39d74;
+section.banner .a a{
+    background-color: #b3a46b;
     color: white;
-    padding: 1vw 1vw 1vw 1vw;
-    border-radius: 10px;
-    font-size: 0.7rem;
+    padding: 0.4vw 1vw 0.4vw 1vw;
+    border-radius: 9px;
+    gap: 20vw;
+    font-size: 0.6rem;
     font-weight: bold;
 }
 
@@ -591,15 +583,15 @@ section.noticias .manual {
     border-radius: 80vw;
     text-align: center;
     display: flex;
-    padding: 2vw 10vw 1vw 10vw;
-     flex-wrap: wrap;
-     font-family: 'Merriweather', sans-serif;
+    padding: 2vw 2vw 2vw 2vw;
+    flex-wrap: wrap;
+    font-family: 'Merriweather', sans-serif;
 }
 
 section.noticias .manual ul li a{
     align-items: center;
     padding: 0vw 1vw 0vw 1vw;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     background-color: #8f7d3c;
     color: white;
     border-radius: 20px;
@@ -776,7 +768,9 @@ footer div h5 {
     font-size: 1.4rem;
     font-weight: bold;
 }
-
+footer .bi ul li a{
+    color: rgb(57, 85, 57);
+}
 footer div nav {
     display: flex;
     justify-content: center;
