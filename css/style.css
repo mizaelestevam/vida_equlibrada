@@ -541,6 +541,11 @@ section.banner .exemplos p {
     font-size: 0.9rem;
     font-weight: bold;
     align-items: center;
+
+}
+section.banner .ali p{
+ line-height: 1.5;
+ font-size: 1rem;
 }
 
 section.banner .exemplos h3 {
@@ -607,13 +612,13 @@ section.noticias .manual a{
 section.noticias  p{
     align-items: center;
     padding: 1vw 3vw 1vw 3vw;
-    font-size: 1.1rem;
     
+     line-height: 1.5;
+ font-size: 1rem;
 }
 section.noticias img {
     border-radius: 12px;
 }
-
 section.noticias ul {
     display: flex;
     gap: 30px;
@@ -630,6 +635,44 @@ section.noticias ul li {
 
 section.noticias ul li h4 {
     font-size: 0.8rem;
+}
+section.noticias .ideia {
+    border-radius: 80vw;
+    text-align: center;
+    display: flex;
+    padding: 2vw 10vw 2vw 10vw;
+    flex-wrap: wrap;
+    font-family: 'Merriweather', sans-serif;
+    flex-wrap: wrap;
+}
+
+section.noticias .ideia ul li a{
+    align-items: center;
+    padding: 0vw 1vw 0vw 1vw;
+    font-size: 0.6rem;
+    background-color: #8f7d3c;
+    color: white;
+    border-radius: 20px;
+}
+section.noticias .ideia a{
+    align-items: center;
+    padding: 1vw 3vw 1vw 3vw;
+    font-size: 0.5rem;
+    background-color: #8f7d3c;
+    color: white;
+    border-radius: 20px;
+}
+section.noticias .ideia h4{
+    font-size: 0.8rem;
+}
+section.noticias .a a{
+     background-color: #b3a46b;
+    color: white;
+    padding: 0.4vw 1vw 0.4vw 1vw;
+    border-radius: 9px;
+    gap: 20vw;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 
 /*Vida-equilibrada*/
@@ -730,7 +773,7 @@ footer h3 {
     font-weight: bold;
     margin: 0 0 10px 0;
     color: rgb(57, 85, 57);
-    ;
+
 }
 
 footer p {
@@ -810,6 +853,9 @@ footer div p span {
     }
 
     section.noticias .manual ul {
+        flex-wrap: wrap;
+    }
+     section.noticias .ideia ul {
         flex-wrap: wrap;
     }
 
