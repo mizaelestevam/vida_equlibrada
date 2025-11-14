@@ -313,8 +313,31 @@
                     </ul>
 
                 </div>
-
             </footer>
+
+            <script>
+
+                function mostraMenu() {
+      console.log(`Olá Mundo`);
+
+      const menu = document.querySelector("header nav ul");
+
+      /*if (menu.style.display == "block") {
+        menu.style.display = "none";
+  
+      } else {
+        menu.style.display = "block";
+      }*/
+
+      /*menu.style.height = menu.scrollHeight + "px";*/
+
+      if (menu.style.height == menu.scrollHeight + "px") {
+        menu.style.height = "0px";
+      } else {
+        menu.style.height = menu.scrollHeight +  "px";
+      }
+    }
+            </script>
     </main>
 </body>
 
