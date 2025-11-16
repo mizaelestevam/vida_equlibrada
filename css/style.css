@@ -535,7 +535,7 @@ section.receitas {
 
 /*noticias*/
 section.noticias{
-  padding: 2vw 10vw 2vw 10vw;
+  padding: 2vw 2vw 2vw 2vw;
 }
 section.noticias .manual {
   border-radius: 80vw;
