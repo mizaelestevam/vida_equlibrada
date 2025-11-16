@@ -629,6 +629,9 @@ section.noticias .ideia ul li p{
     font-weight: bold;
     padding: 1vw 1.4vw 1vw 1.4vw;
 }
+section.noticias .p p{
+  padding: 2vw 10vw 2vw 10vw;
+}
 
 /*Vida-equilibrada*/
 
