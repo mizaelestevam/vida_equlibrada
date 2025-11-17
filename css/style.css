@@ -479,31 +479,25 @@ section.banner .fisica {
   object-fit: cover;
 }
 section.banner .exemplos {
-  background-color: #c5bd9f;
+  background-color: #566964;
   border-radius: 20px;
   padding: 2vw 10vw 2vw 10vw;
   box-shadow: 1px #58680f;
   width: 80;
-  margin: 4vw;
+  margin: 4.8vw 0.3vw;
   text-align: left;
 }
 
 section.banner .exemplos p {
+  color: white;
   text-align: center;
   font-size: 0.9rem;
-  font-weight: bold;
-  align-items: center;
+  text-align: center;
+  text-align: left;
 }
 section.banner .ali p {
   line-height: 1.5;
   font-size: 1rem;
-}
-
-section.banner .exemplos h3 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-  line-height: 1.5;
 }
 section.banner .imagens {
   background: #b9af8c;
@@ -534,8 +528,9 @@ section.receitas {
 }
 
 /*noticias*/
-section.noticias{
+section.noticias {
   padding: 2vw 2vw 2vw 2vw;
+  font-family: "Merriweather", sans-serif;
 }
 section.noticias .manual {
   border-radius: 80vw;
@@ -543,24 +538,6 @@ section.noticias .manual {
   display: flex;
   padding: 2vw 2vw 2vw 2vw;
   flex-wrap: wrap;
-  font-family: "Merriweather", sans-serif;
-}
-
-section.noticias .manual ul li a {
-  align-items: center;
-  padding: 0vw 1vw 0vw 1vw;
-  font-size: 0.6rem;
-  background-color: #8f7d3c;
-  color: white;
-  border-radius: 20px;
-}
-section.noticias .manual a {
-  align-items: center;
-  padding: 1vw 3vw 1vw 3vw;
-  font-size: 0.8rem;
-  background-color: #8f7d3c;
-  color: white;
-  border-radius: 20px;
 }
 section.noticias p {
   align-items: center;
@@ -580,7 +557,7 @@ section.noticias ul {
   list-style: none;
 }
 
-section.noticias ul li {
+section.noticias .manual ul li {
   background-color: #d6d2b8;
   border-radius: 15px;
   box-shadow: 0 0 8px #374207;
@@ -627,15 +604,34 @@ section.noticias .a a {
   font-size: 0.6rem;
   font-weight: bold;
 }
-section.noticias .ideia ul li p{
-    font-size: 0.7rem;
-    font-weight: bold;
-    padding: 1vw 1.4vw 1vw 1.4vw;
+section.noticias .ideia ul li p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 1vw 1.4vw 1vw 1.4vw;
 }
-section.noticias .p p{
+section.noticias .p p {
   padding: 2vw 10vw 2vw 10vw;
 }
+section.noticias .nos {
+  background-color: #d6d2b8;
+  display: flex;
+  border-radius: 5vw;
+  padding: 2vw 5vw 2vw 5vw;
+  text-align: center;
+  
+}
+section.noticias .nos p{
+  display: flex;
+  font-size: 0.8rem;
+  color: white;
+}
+section.noticias .nos img{
+ width: 20vw;
 
+}
+section.noticias .nos h4{
+  font-size: 1.4rem;
+}
 /*Vida-equilibrada*/
 
 section.banner h1 {
@@ -799,7 +795,7 @@ footer div p span {
   header nav ul {
     display: block;
   }
-  
+
   header button {
     display: none;
   }
