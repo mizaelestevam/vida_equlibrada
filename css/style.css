@@ -627,17 +627,19 @@ section.noticias .nos p {
 }
 section.noticias .nos img {
   width: 12vw;
+  margin-right: 5vw;
 }
 section.noticias .nos h4 {
   font-size: 1.2rem;
   color: black;
 }
 section.noticias .nos ul li {
+  box-shadow: 0 0 8px #374207;
   display: flex;
   align-items: center;
   padding: 2vw 3vw 2vw 3vw;
   font-size: 0.6rem;
-  background-color: #acb998;
+  background-color: #384e49;
   color: white;
   border-radius: 20px;
 }
