@@ -613,24 +613,33 @@ section.noticias .p p {
   padding: 2vw 10vw 2vw 10vw;
 }
 section.noticias .nos {
-  background-color: #d6d2b8;
   display: flex;
   border-radius: 5vw;
-  padding: 2vw 5vw 2vw 5vw;
+  padding: 3vw 5vw 2vw 3vw;
   text-align: center;
-  
+  flex-wrap: wrap;
 }
-section.noticias .nos p{
+section.noticias .nos p {
   display: flex;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: white;
+  padding: 1vw 1.4vw 1vw 1.4vw;
 }
-section.noticias .nos img{
- width: 20vw;
-
+section.noticias .nos img {
+  width: 12vw;
 }
-section.noticias .nos h4{
-  font-size: 1.4rem;
+section.noticias .nos h4 {
+  font-size: 1.2rem;
+  color: black;
+}
+section.noticias .nos ul li {
+  display: flex;
+  align-items: center;
+  padding: 2vw 3vw 2vw 3vw;
+  font-size: 0.6rem;
+  background-color: #acb998;
+  color: white;
+  border-radius: 20px;
 }
 /*Vida-equilibrada*/
 
@@ -822,7 +831,9 @@ footer div p span {
   section.noticias .ideia ul {
     flex-wrap: wrap;
   }
-
+  section.noticias .nos ul {
+    flex-wrap: wrap;
+  }
   footer {
     display: block;
   }
