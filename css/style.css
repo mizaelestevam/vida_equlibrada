@@ -458,7 +458,7 @@ section.banner .c {
 section.banner .atividade {
   background-color: #d6d2b8;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   border-radius: 22px;
   padding: 2vw 3vw;
   display: flex;
@@ -469,14 +469,14 @@ section.banner .atividade {
 section.banner div.pratica p {
   border-radius: 17px;
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 3px 5px;
+  padding: 5vw 2vw 5vw 2vw;
 }
 
 section.banner .fisica {
-  width: 58vw;
-  height: auto;
-  object-fit: cover;
+  width: 40vw;
+  border-radius: 20vw;
 }
 section.banner .exemplos {
   background-color: #566964;
@@ -517,6 +517,20 @@ section.banner .texs h4 {
   font-weight: bold;
   font-size: 1rem;
 }
+section.banner .b h3{
+  line-height: 1.6;
+}
+section.banner .ali h3{
+  line-height: 1.6;
+}
+section.banner .ali strong{
+  line-height: 1.6;
+}
+section.banner .ali ol li{
+  line-height: 1.6;
+}
+
+
 
 /*receitas*/
 section.receitas {
@@ -841,12 +855,19 @@ footer div p span {
   section.noticias .manual ul {
     flex-wrap: wrap;
   }
+
   section.noticias .ideia ul {
     flex-wrap: wrap;
   }
+
   section.noticias .nos ul {
     flex-wrap: wrap;
   }
+
+  section.banner .atividade{
+    flex-wrap: wrap;
+  }
+
   footer {
     display: block;
   }
