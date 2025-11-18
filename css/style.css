@@ -553,10 +553,12 @@ section.noticias .manual {
   padding: 2vw 2vw 2vw 2vw;
   flex-wrap: wrap;
 }
+section.noticias h4{
+  padding: 2vw 7vw 2vw 7vw;
+}
 section.noticias p {
   align-items: center;
   padding: 1vw 3vw 1vw 3vw;
-
   line-height: 1.5;
   font-size: 1rem;
 }
@@ -594,20 +596,19 @@ section.noticias .ideia ul li {
   align-items: center;
   padding: 0.6vw 1vw;
   font-size: 0.6rem;
-  background-color: #9c926b;
   color: white;
   border-radius: 20px;
 }
-section.noticias .ideia ul li a{
+section.noticias .ideia ul li  a{
   align-items: center;
-  padding: 1vw 3vw 1vw 3vw;
-  font-size: 0.5rem;
-  background-color: #b3a46b;
+  padding: 0px 5px 0px 5px;
+  font-size: 0.6rem;
+  background-color: #8f7d3c;
   color: white;
   border-radius: 20px;
 }
 section.noticias .ideia h4 {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 section.noticias .a a {
   background-color: #b3a46b;
@@ -622,17 +623,13 @@ section.noticias .manual ul li a{
   background-color: #b3a46b;
   color: white;
   border-radius: 6px;
-  font-size: 0.8rem;
+  padding: 0px 10px 0px 10px;
+  font-size: 0.7rem;
 }
 section.noticias .ideia ul li p {
   font-size: 0.7rem;
   padding: 1vw 1.4vw 1vw 1.4vw;
   color: white
-}
-section.noticias .ideia h5{
-  color: white;
-  font-weight: bold;
-  font-size: 1rem
 }
 section.noticias .p p {
   padding: 2vw 10vw 2vw 10vw;
@@ -659,14 +656,68 @@ section.noticias .nos h4 {
   color: black;
 }
 section.noticias .nos ul li {
-  box-shadow: 0 0 8px #374207;
+  box-shadow: 0 0 8px #8fa52b;
   display: flex;
   align-items: center;
   padding: 2vw 3vw 2vw 3vw;
   font-size: 0.6rem;
-  background-color: #384e49;
   color: white;
   border-radius: 20px;
+}
+section.noticias .ideia1 {
+  border-radius: 80vw;
+  text-align: center;
+  display: flex;
+  padding: 2vw 10vw 2vw 10vw;
+  flex-wrap: wrap;
+  font-family: "Merriweather", sans-serif;
+  flex-wrap: wrap;
+}
+section.noticias .ideia1 ul li {
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 20px;
+  background-color: #beb696;
+  box-shadow: 0 0 8px #374207;
+}
+section.noticias .ideia1 ul li p {
+  font-size: 0.7rem;
+  padding: 1vw 1.4vw 1vw 1.4vw;
+}
+section.noticias .ideia1 h5{
+  font-weight: bold;
+  font-size: 0.9rem
+}
+section.noticias .ideia1 a{
+ background-color: #253f38;
+ color: white;
+ border-radius: 10px;
+ padding: 0px 10px 0px 10px;
+ font-size: 0.5rem;
+}
+section.noticias .manual1 {
+  border-radius: 80vw;
+  text-align: center;
+  display: flex;
+  padding: 3vw 10vw 3vw 10vw;
+  flex-wrap: wrap;
+}
+section.noticias .manual1 ul li {
+  background-color: #d6d2b8;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #374207;
+}
+section.noticias .manual1 ul li a{
+  background-color: #a89b67;
+  color: white;
+  border-radius: 8px;
+  padding: 0px 10px 0px 10px;
+  font-size: 0.6rem;
+}
+section.noticias .manual1 ul li h3 {
+ font-size: 0.8rem;
 }
 /*Vida-equilibrada*/
 
@@ -856,7 +907,15 @@ footer div p span {
     flex-wrap: wrap;
   }
 
+ section.noticias .manual1 ul {
+    flex-wrap: wrap;
+  }
+
   section.noticias .ideia ul {
+    flex-wrap: wrap;
+  }
+
+section.noticias .ideia1 ul {
     flex-wrap: wrap;
   }
 
