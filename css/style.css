@@ -96,7 +96,7 @@ header
 ==============*/
 
 header {
-  padding: 2vw 8vw 2vw 8vw;
+  padding: 2vw 5vw 2vw 5vw;
   background-color: #253f38;
   height: 200px;
 }
@@ -125,7 +125,6 @@ header nav ul li.atual a {
 
 header a {
     color: white;
-    
 
 }
 
@@ -460,18 +459,6 @@ section.banner .c {
   width: 58vw;
   height: auto;
 }
-
-section.banner .atividade {
-  background-color: #d6d2b8;
-  display: flex;
-  gap: 15px;
-  border-radius: 22px;
-  padding: 2vw 3vw;
-  display: flex;
-  box-shadow: 0 0 8px #374207;
-  justify-content: center;
-}
-
 section.banner div.pratica p {
   border-radius: 17px;
   line-height: 1.6;
@@ -523,7 +510,25 @@ section.banner .texs h4 {
   font-weight: bold;
   font-size: 1rem;
 }
-
+section.banner .atividade ul li p {
+  font-size: 0.7rem;
+  padding: 1vw 1.4vw 1vw 1.4vw;
+}
+section.banner .atividade {
+  border-radius: 80vw;
+  text-align: center;
+  display: flex;
+  padding: 0 6vw 0vw 6vw;
+  flex-wrap: wrap;
+  background-color: #b9af8c;
+}
+section.baner .atividade ul li {
+  align-items: center;
+  padding: 0.6vw 1vw;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 20px;
+}
 /*receitas*/
 section.receitas {
   justify-content: center;
@@ -598,7 +603,7 @@ section.noticias .ideia ul li  a{
   border-radius: 20px;
 }
 section.noticias .ideia h4 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 section.noticias .a a {
@@ -681,14 +686,19 @@ section.noticias .ideia1 ul li p {
 }
 section.noticias .ideia1 h5{
   font-weight: bold;
-  font-size: 0.9rem
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+section.noticias .espaco{
+  padding: 0vw 7vw 0vw 7vw;
+  line-height: 1.6;
 }
 section.noticias .ideia1 a{
  background-color: #3a503f;
  color: white;
  border-radius: 10px;
- padding: 0px 10px 0px 10px;
- font-size: 0.5rem;
+ padding: 0px 8px 0px 8px;
+ font-size: 0.6rem;
 }
 section.noticias .manual1 {
   border-radius: 80vw;
