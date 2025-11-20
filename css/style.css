@@ -550,18 +550,20 @@ section.noticias .equipe{
   background-color: #d6d2b8;
   box-shadow: 0px 0px 8px #8fa52b;
   border-radius: 20px;
-   padding: 2vw 2vw 2vw 2vw;
+  padding: 2vw 2vw 2vw 2vw;
 }
 
 section.noticias .comentario p{
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-align: center;
   display: flex;
+ 
 }
 
 section.noticias .comentario h4{
- font-size: 1rem;
+ font-size: 2rem;
  font-weight: bold;
+ display: flex;
 }
 
 section.noticias .lider{
