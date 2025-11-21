@@ -98,7 +98,6 @@ header
 header {
   padding: 2vw 5vw 2vw 5vw;
   background-color: #253f38;
-  height: 200px;
 }
 
 header nav {
@@ -147,8 +146,9 @@ header nav {
 }
 
 header nav img {
-  width: 130px;
+  width: 7vw;
   height: auto;
+  border-radius: 5vw;
 }
 
 header nav ul {
@@ -175,7 +175,12 @@ header nav ul li ul {
 header nav ul li:hover ul {
   display: block;
 }
-
+header button {
+  width: 8vw;
+  background-color: #d6d2b8;
+  border-radius: 1.2vw;
+  display: none;
+}
 /*banner*/
 
 section.banner {
@@ -533,10 +538,10 @@ section.baner .atividade ul li {
 section.banner .b h2 {
   line-height: 1.6;
 }
-section.banner .espaco  h3{
+section.banner .espaco h3 {
   line-height: 2.3;
 }
-section.banner .espaco{
+section.banner .espaco {
   line-height: 1.8;
 }
 /*receitas*/
@@ -746,6 +751,7 @@ section.noticias .ideia1 ul li p {
   padding: 1vw 1.4vw 1vw 1.4vw;
   color: rgb(51, 51, 51);
   font-weight: bold;
+  text-align: left;
 }
 section.noticias .ideia1 h5 {
   font-weight: bold;
@@ -788,7 +794,7 @@ section.noticias .manual1 ul li h3 {
 /*Vida-equilibrada*/
 
 section.banner h1 {
-  font-size: 2.6rem;
+  font-size: 2rem;
   text-align: center;
   line-height: 1.2;
   padding: 2vw 10vw 2vw 10vw;
@@ -954,7 +960,22 @@ footer div p span {
   }
 
   header button {
-    display: none;
+    display: block;
+  }
+
+  header nav div > ul {
+    /*display: none;*/
+    height: 0px;
+    overflow: hidden;
+    transition: 1.1s height;
+  }
+
+  header nav {
+    flex-direction: row-reverse;
+  }
+  header nav ul li ul {
+    display: block;
+    position: static;
   }
 
   header,
