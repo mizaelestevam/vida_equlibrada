@@ -600,15 +600,18 @@ section.noticias .equipe {
 }
 
 section.noticias .comentario p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
   display: flex;
+  text-align: left;
+
 }
 
 section.noticias .comentario h4 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: bold;
   display: flex;
+  padding:  5vw 2vw;
 }
 
 section.noticias .lider {
