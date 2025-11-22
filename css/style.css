@@ -175,12 +175,14 @@ header nav ul li ul {
 header nav ul li:hover ul {
   display: block;
 }
+
 header button {
   width: 8vw;
   background-color: #d6d2b8;
   border-radius: 1.2vw;
   display: none;
 }
+
 /*banner*/
 
 section.banner {
@@ -196,9 +198,11 @@ section.banner .textos {
   display: flex;
   align-items: flex-start;
 }
+
 section.banner .vida p {
   line-height: 1.5;
 }
+
 section.banner a {
   color: #a5b170;
   font-weight: bold;
@@ -246,14 +250,17 @@ section.banner .cardapio {
   padding: 2vw 2vw 2vw 2vw;
   box-shadow: 0 0 8px #586909;
 }
+
 section.banner .parte02 {
   border-radius: 100vw;
 }
+
 section.banner div.tex p {
   border-radius: 18px;
   line-height: 1.9;
   font-size: 0.9rem;
 }
+
 section.banner .espaco h6 {
   line-height: 1.6;
 }
@@ -345,6 +352,7 @@ section.banner .yoga {
   width: 58vw;
   height: auto;
 }
+
 section.banner .a a {
   background-color: #b3a46b;
   color: white;
@@ -372,6 +380,7 @@ section.banner div.lactose p {
   text-align: center;
   font-weight: bold;
 }
+
 section.banner div.lactose h4 {
   font-size: 1.7rem;
   padding: 2vw 2vw;
@@ -466,6 +475,7 @@ section.banner .c {
   width: 58vw;
   height: auto;
 }
+
 section.banner div.pratica p {
   border-radius: 17px;
   line-height: 1.6;
@@ -478,6 +488,7 @@ section.banner .fisica {
   width: 40vw;
   border-radius: 20vw;
 }
+
 section.banner .exemplos {
   background-color: #566964;
   border-radius: 20px;
@@ -495,10 +506,12 @@ section.banner .exemplos p {
   text-align: center;
   text-align: left;
 }
+
 section.banner .ali p {
   line-height: 1.5;
   font-size: 1rem;
 }
+
 section.banner .imagens {
   background: #b9af8c;
   box-shadow: 1px #a5b170;
@@ -506,21 +519,26 @@ section.banner .imagens {
   gap: 20px;
   display: flex;
 }
+
 section.banner .ultra {
   border-radius: 20vw;
 }
+
 section.banner .imagens a {
   background-color: #8f7d3c;
   color: white;
 }
+
 section.banner .texs h4 {
   font-weight: bold;
   font-size: 1rem;
 }
+
 section.banner .atividade ul li p {
   font-size: 0.7rem;
   padding: 1vw 1.4vw 1vw 1.4vw;
 }
+
 section.banner .atividade {
   border-radius: 80vw;
   text-align: center;
@@ -528,6 +546,7 @@ section.banner .atividade {
   padding: 0 6vw 0vw 6vw;
   flex-wrap: wrap;
 }
+
 section.baner .atividade ul li {
   align-items: center;
   padding: 0.6vw 1vw;
@@ -535,15 +554,19 @@ section.baner .atividade ul li {
   color: white;
   border-radius: 20px;
 }
+
 section.banner .b h2 {
   line-height: 1.6;
 }
+
 section.banner .espaco h3 {
   line-height: 2.3;
 }
+
 section.banner .espaco {
   line-height: 1.8;
 }
+
 /*receitas*/
 section.receitas {
   justify-content: center;
@@ -558,6 +581,7 @@ section.noticias {
   padding: 2vw 2vw 2vw 2vw;
   font-family: "Merriweather", sans-serif;
 }
+
 section.noticias .equipe {
   display: flex;
   background-color: #d6d2b8;
@@ -596,9 +620,11 @@ section.noticias p {
   line-height: 1.5;
   font-size: 1rem;
 }
+
 section.noticias img {
   border-radius: 12px;
 }
+
 section.noticias ul {
   display: flex;
   gap: 30px;
@@ -616,6 +642,7 @@ section.noticias .manual ul li {
 section.noticias ul li h4 {
   font-size: 0.8rem;
 }
+
 section.noticias .ideia {
   border-radius: 80vw;
   text-align: center;
@@ -650,6 +677,7 @@ section.noticias .ideia3 ul li a {
   color: white;
   border-radius: 20px;
 }
+
 section.noticias .ideia3 h4 {
   font-size: 1rem;
   line-height: 1.6;
@@ -662,6 +690,7 @@ section.noticias .ideia ul li {
   color: white;
   border-radius: 20px;
 }
+
 section.noticias .ideia ul li a {
   align-items: center;
   padding: 0px 5px 0px 5px;
@@ -670,10 +699,12 @@ section.noticias .ideia ul li a {
   color: white;
   border-radius: 20px;
 }
+
 section.noticias .ideia h4 {
   font-size: 1rem;
   line-height: 1.6;
 }
+
 section.noticias .a a {
   background-color: #b3a46b;
   color: white;
@@ -683,6 +714,7 @@ section.noticias .a a {
   font-size: 0.6rem;
   font-weight: bold;
 }
+
 section.noticias .manual ul li a {
   background-color: #b3a46b;
   color: white;
@@ -690,14 +722,17 @@ section.noticias .manual ul li a {
   padding: 0px 10px 0px 10px;
   font-size: 0.7rem;
 }
+
 section.noticias .ideia ul li p {
   font-size: 0.7rem;
   padding: 1vw 1.4vw 1vw 1.4vw;
   color: white;
 }
+
 section.noticias .p p {
   padding: 2vw 10vw 2vw 10vw;
 }
+
 section.noticias .nos {
   display: flex;
   border-radius: 5vw;
@@ -705,20 +740,24 @@ section.noticias .nos {
   text-align: center;
   flex-wrap: wrap;
 }
+
 section.noticias .nos p {
   display: flex;
   font-size: 0.6rem;
   color: white;
   padding: 1vw 1.4vw 1vw 1.4vw;
 }
+
 section.noticias .nos img {
   width: 12vw;
   margin-right: 5vw;
 }
+
 section.noticias .nos h4 {
   font-size: 1.2rem;
   color: black;
 }
+
 section.noticias .nos ul li {
   box-shadow: 0 0 8px #8fa52b;
   display: flex;
@@ -728,6 +767,7 @@ section.noticias .nos ul li {
   color: white;
   border-radius: 20px;
 }
+
 section.noticias .ideia1 {
   border-radius: 80vw;
   text-align: center;
@@ -737,6 +777,7 @@ section.noticias .ideia1 {
   font-family: "Merriweather", sans-serif;
   flex-wrap: wrap;
 }
+
 section.noticias .ideia1 ul li {
   align-items: center;
   padding: 10px 10px 10px 10px;
@@ -746,6 +787,7 @@ section.noticias .ideia1 ul li {
   background-color: #beb696;
   box-shadow: 0 0 8px #374207;
 }
+
 section.noticias .ideia1 ul li p {
   font-size: 0.6rem;
   padding: 1vw 1.4vw 1vw 1.4vw;
@@ -753,15 +795,18 @@ section.noticias .ideia1 ul li p {
   font-weight: bold;
   text-align: left;
 }
+
 section.noticias .ideia1 h5 {
   font-weight: bold;
   font-size: 0.8rem;
   line-height: 1.6;
 }
+
 section.noticias .espaco {
   padding: 0vw 7vw 0vw 7vw;
   line-height: 1.6;
 }
+
 section.noticias .ideia1 a {
   background-color: #3a503f;
   color: white;
@@ -769,6 +814,7 @@ section.noticias .ideia1 a {
   padding: 0px 8px 0px 8px;
   font-size: 0.6rem;
 }
+
 section.noticias .manual1 {
   border-radius: 80vw;
   text-align: center;
@@ -776,11 +822,13 @@ section.noticias .manual1 {
   padding: 3vw 10vw 3vw 10vw;
   flex-wrap: wrap;
 }
+
 section.noticias .manual1 ul li {
   background-color: #d6d2b8;
   border-radius: 15px;
   box-shadow: 0 0 8px #374207;
 }
+
 section.noticias .manual1 ul li a {
   background-color: #a89b67;
   color: white;
@@ -788,9 +836,11 @@ section.noticias .manual1 ul li a {
   padding: 0px 10px 0px 10px;
   font-size: 0.6rem;
 }
+
 section.noticias .manual1 ul li h3 {
   font-size: 0.8rem;
 }
+
 /*Vida-equilibrada*/
 
 section.banner h1 {
@@ -875,6 +925,104 @@ section.banner4 p img {
   margin-right: auto;
 }
 
+/*pg1*/
+main section.pg1 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+main section.pg1 h1 {
+  font-size: 40px;
+}
+
+main section.pg1 p {
+  font-size: 30px;
+  color: #7c7c7f;
+  font-weight: 200;
+}
+
+main section.pg1 input {
+  border: 1px solid #85878a;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+main section.pg1 input::placeholder {
+  font-size: 1rem;
+
+
+}
+
+main section.pg1 button {
+
+  background-color: #2d7fd1;
+  font-weight: bolder;
+  font-size: 23px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 90px 10px 90px;
+
+}
+
+/*pg2*/
+
+main section.pg2 {
+  display: none;
+}
+
+main section.pg2 {
+  display: none;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+main section.pg2 h1 {
+  font-size: 40px;
+  color: black;
+}
+
+main section.pg1 h1 {
+  font-size: 40px;
+  color: black;
+}
+
+main section.pg2 p {
+  font-size: 30px;
+  color: #7c7c7f;
+  font-weight: 200;
+}
+
+main section.pg2 label {
+  display: block;
+  padding: 3px;
+
+}
+
+
+main section.pg2 input::placeholder {
+  font-size: 1rem;
+}
+
+main section.pg2 button {
+
+  background-color: #2d7fd1;
+  font-weight: bolder;
+  font-size: 23px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 90px 10px 90px;
+
+}
+
+
+
 /*footer*/
 footer {
   display: flex;
@@ -928,9 +1076,11 @@ footer div h5 {
   font-size: 1.4rem;
   font-weight: bold;
 }
+
 footer .bi ul li a {
   color: rgb(57, 85, 57);
 }
+
 footer div nav {
   display: flex;
   justify-content: center;
@@ -963,7 +1113,7 @@ footer div p span {
     display: block;
   }
 
-  header nav div > ul {
+  header nav div>ul {
     /*display: none;*/
     height: 0px;
     overflow: hidden;
@@ -973,6 +1123,7 @@ footer div p span {
   header nav {
     flex-direction: row-reverse;
   }
+
   header nav ul li ul {
     display: block;
     position: static;

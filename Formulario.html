@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_html</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        main section {
+            display: none;
+        }
+
+        main section.pg1 {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="pg1">
+            <h1>
+                Bem-Vindo(a)!
+            </h1>
+
+            <p>Quantas refeições completas você costuma fazer ao dia?</p>
+
+            <form action="#">
+                <input type="text" placeholder="Insira aqui">
+
+                <br>
+                <button type="button" onclick="vaiParaPg2()">
+                    Próximo
+                </button>
+            </form>
+        </section>
+
+        <section class="pg2">
+            <h1>
+                <span>Fulano</span>, Você estuda no IFC?
+            </h1>
+
+            <form action="#">
+                <p>
+
+                    <input type="text" placeholder="Insira aqui">
+                </p>
+                <p>
+                    <label for="turma">
+                        turma
+                    </label>
+    
+                    <select name="turma" id="turma">
+                        <option value="1info1">1info1</option>
+                        <option value="1info2">1info2</option>
+                        <option value="1info3">1info3</option>
+                    </select>
+                </p>
+
+<p>
+    <label>
+        <input type="radio" name="estudante" value="1">Sim
+    </label>
+
+    <label>
+        <input type="radio" name="estudante" value="0">Não
+    </label>
+
+</p>
+                
+                <button type="button" onclick="vaiParaPg3()">
+                    Próximo
+                </button>
+            </form>
+
+        </section>
+
+        <section class="pg3" onclick="vaiParaPg4()">
+
+            <h1>
+                Qual turma você pertence?
+            </h1>
+
+            <form action="#">
+                <label for="turma">
+                    turma
+                </label>
+
+                <select name="turma" id="turma">
+                    <option value="1info1">1info1</option>
+                    <option value="1info2">1info2</option>
+                    <option value="1info3">1info3</option>
+                </select>
+
+                <button type="button">
+                    Próximo
+                </button>
+            </form>
+
+        </section>
+
+        <section class="pg4">
+            <h1>
+                Saudações, <span>Fulano!</span>
+            </h1>
+
+            <p>Você e da turma <span>1INFOX</span></p>
+
+
+
+        </section>
+    </main>
+
+    <script>
+        const pg1 = document.querySelector('.pg1');
+        const pg2 = document.querySelector('.pg2');
+        const pg3 = document.querySelector('.pg3');
+        const pg4 = document.querySelector('.pg4');
+        let refeicoes = "";
+        let turma = "";
+
+        function vaiParaPg2() {
+            pg1.style.display = "none";
+            pg2.style.display = "block";
+
+            refeicoes = Number(document.querySelector("section.pg1 input").value);
+
+            document.querySelector("section.pg2 h1 span").innerHTML = refeicoes;
+                
+
+            //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
+
+
+            if (refeicoes >= 3 && refeicoes <= 5) {
+                alert(`Parabéns, você se alimenta o ideal por dia.`);
+
+            } else if (refeicoes >= 6) {
+                alert(`Essa quantidade pode ser prejudicial para a saúde, e é recomendado apenas para pessoas que gostariam de ganhar massa corporal.`);
+                window.location.href = "https://www.tuasaude.com/dieta-para-aumentar-a-massa-muscular/";
+
+            } else if (refeicoes <= 0) {
+                alert(`Insira um valor valido!`);
+
+
+            } else if (refeicoes < 3) {
+                alert(`Você está comento menos que o recomendado.`);
+                window.location.href = "https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/";
+
+            }
+
+        }
+
+        function vaiParaPg3() {
+            let estudante = document.querySelector("input[name='estudante']:checked").value;
+
+   
+
+    if (peso > 0 && altura > 0) {
+        const imc = peso / (altura * altura);
+        let classificacao = '';
+
+        if (imc < 18.5) {
+            classificacao = 'Abaixo do peso';
+            alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`);
+            window.location.href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429";
+
+        } else if (imc >= 18.5 && imc < 24.9) {
+            classificacao = 'Peso normal';
+            alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
+            
+            
+        } else if (imc >= 25 && imc < 29.9) {
+            classificacao = 'Sobrepeso';
+            alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
+            window.location.href = " https://boomi.com.br/alimentacao-no-tratamento-do-sobrepeso-e-obesidade/?srsltid=AfmBOoqxPtbAWa5UAgKInb-cIdxXZZU1VQ1ATkN8bfihrrUk4MHmGq1D";
+
+        } else {
+            classificacao = 'Obesidade';
+            alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`);
+            window.location.href = "https://www.spedm.pt/pt/glandulas-e-doencas-endocrinas/recomendacoes-nutricionais-na-obesidade";
+
+        }
+
+
+    } else {
+        alert('Por favor, insira valores válidos para peso é altura.');
+    }
+
+            /*
+            if (estud == 1) {
+                pg2.style.display = "none";
+                pg3.style.display = "block";
+
+            } else if (estudante == 0) {
+                pg2.style.display = "none";
+                pg4.style.display = "block";
+
+            }
+                */
+
+        }
+
+        function vaiParaPg4() {
+            pg3.style.display = "none";
+            pg4.style.display = "block";
+
+            nome = document.querySelector("section.pg1 input").value;
+
+            document.querySelector("section.pg4 h1 span").innerHTML = nome;
+
+            turma = document.querySelector("section.pg3 select").value;
+
+            document.querySelector("section.pg4 p span").innerHTML = turma;
+
+        }
+    </script>
+</body>
+
+</html>
