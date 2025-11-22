@@ -569,7 +569,8 @@ section.noticias .alimentacao {
   align-items: center;
   gap: 20px;
   border-radius: 22px;
-  padding: 5vw 2vw 5vw 2vw;
+  padding: 3vw 1vw 3vw 
+  1vw;
   box-shadow: 0 0 8px #556414;
   margin-right: 100px;
   line-height: 2.3;
