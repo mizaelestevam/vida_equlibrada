@@ -570,18 +570,18 @@ section.noticias .alimentacao {
   gap: 20px;
   border-radius: 22px;
   padding: 20px;
-  box-shadow: 0 0 8px #374207;
+  box-shadow: 0 0 8px #556414;
   margin-right: 100px;
 }
 
 section.noticias div.resumo p {
   border-radius: 17px;
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 section.noticias .yoga {
-  width: 58px;
+  width: 20vw;
   height: auto;
 }
 
@@ -613,7 +613,7 @@ section.noticias .manual {
   border-radius: 80vw;
   text-align: center;
   display: flex;
-  padding: 5vw 10vw 5vw 10vw;
+  padding: 2vw 10vw 2vw 10vw;
   flex-wrap: wrap;
 }
 
