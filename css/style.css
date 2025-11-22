@@ -271,27 +271,8 @@ section.banner .img {
   border-radius: 15px;
 }
 
-section.banner .alimentacao {
-  background-color: #d6d2b8;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  border-radius: 22px;
-  padding: 20px;
-  box-shadow: 0 0 8px #374207;
-  margin-right: 100px;
-}
 
-section.banner div.resumo p {
-  border-radius: 17px;
-  line-height: 1.6;
-  font-size: 1rem;
-}
 
-section.banner .yoga {
-  width: 38px;
-  height: auto;
-}
 
 section.banner .informacao {
   background-color: #d6d2b8;
@@ -346,11 +327,6 @@ section.banner div.dicas p {
   border-radius: 17px;
   line-height: 1.6;
   font-size: 1rem;
-}
-
-section.banner .yoga {
-  width: 58vw;
-  height: auto;
 }
 
 section.banner .a a {
@@ -567,6 +543,11 @@ section.banner .espaco {
   line-height: 1.8;
 }
 
+section.banner .yoga {
+  width: 58vw;
+  height: auto;
+}
+
 /*receitas*/
 section.receitas {
   justify-content: center;
@@ -580,6 +561,28 @@ section.receitas {
 section.noticias {
   padding: 2vw 2vw 2vw 2vw;
   font-family: "Merriweather", sans-serif;
+}
+
+section.banner .alimentacao {
+  background-color: #d6d2b8;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 0 8px #374207;
+  margin-right: 100px;
+}
+
+section.banner div.resumo p {
+  border-radius: 17px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+section.banner .yoga {
+  width: 38px;
+  height: auto;
 }
 
 section.noticias .equipe {
@@ -610,7 +613,7 @@ section.noticias .manual {
   border-radius: 80vw;
   text-align: center;
   display: flex;
-  padding: 2vw 1vw 2vw 1vw;
+  padding: 5vw 1vw 5vw 1vw;
   flex-wrap: wrap;
 }
 
