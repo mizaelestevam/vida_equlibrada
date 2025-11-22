@@ -577,11 +577,11 @@ section.noticias .alimentacao {
 section.noticias div.resumo p {
   border-radius: 17px;
   line-height: 1.6;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 section.noticias div.resumo h3 {
-  padding: 7vw 10vw;
+  
   font-size: 1.3rem;
 }
 
