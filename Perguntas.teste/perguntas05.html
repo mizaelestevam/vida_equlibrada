@@ -1,21 +1,20 @@
 <script>
 
-const processados = prompt(`Você costuma consumir alimentos ultraprocessados de 3 a 5 vezes na semana? como por exemplo refrigerantes, salgadinhos, biscoitos recheados. (Sim ou Não)`);
-
+const processados = prompt(`Você costuma consumir alimentos ultraprocessados de 3 a 5 vezes na semana? Como, por exemplo, refrigerantes, salgadinhos, biscoitos recheados. (Sim ou Não)`);
 switch (processados) {
     case `Sim`:
-        alert(`Ultraprocessados podem ser prejudiciais para saúde em excesso, confira os princiapais riscos:`);
+        alert(`Ultraprocessados podem ser prejudiciais para saúde em excesso, confira os principais riscos:`);
         window.location.href = "https://www.ifsc.edu.br/web/ifsc-verifica/w/todo-alimento-ultraprocessado-e-ruim-";
 
         break;
 
         case `Não`:
-      alert(`Que maravilha, você esta seguindo o caminho que é recomendado para um alimentção equilibrada.`);
+      alert(`Que maravilha, você está seguindo o caminho recomendado para uma alimentação equilibrada.`);
        
         break;
 
     default:
-        alert(`Por favor, responda a pergunta com Sim ou Não.`);
+        alert(`Por favor, responda à pergunta com sim ou não.`);
         break;
 }
 
