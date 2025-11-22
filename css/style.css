@@ -572,17 +572,16 @@ section.noticias .alimentacao {
   padding: 1vw 1vw 1vw 1vw;
   box-shadow: 0 0 8px #556414;
   margin-right: 100px;
-  line-height: 0.5;
 }
 
 section.noticias div.resumo p {
   border-radius: 17px;
-  line-height: 0.6;
+  line-height: 1.6;
   font-size: 0.8rem;
 }
 
 section.noticias div.resumo h3 {
-  padding: 5vw 10vw;
+  padding: 7vw 10vw;
   font-size: 1.3rem;
 }
 
