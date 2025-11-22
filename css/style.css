@@ -572,6 +572,7 @@ section.noticias .alimentacao {
   padding: 20vw 20vw 20vw 20vw;
   box-shadow: 0 0 8px #556414;
   margin-right: 100px;
+  line-height: 1.6;
 }
 
 section.noticias div.resumo p {
