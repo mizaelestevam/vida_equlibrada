@@ -569,7 +569,7 @@ section.noticias .alimentacao {
   align-items: center;
   gap: 20px;
   border-radius: 22px;
-  padding: 20px 20px 20px 20px;
+  padding: 20vw 20vw 20vw 20vw;
   box-shadow: 0 0 8px #556414;
   margin-right: 100px;
 }
@@ -578,6 +578,10 @@ section.noticias div.resumo p {
   border-radius: 17px;
   line-height: 1.6;
   font-size: 0.8rem;
+}
+section.noticias div.resumo h3 {
+  padding: 5vw 10vw;
+  font-size: 1.3rem;
 }
 
 section.noticias .yoga {
@@ -1177,6 +1181,10 @@ footer div p span {
   }
 
   section.noticias .nos ul {
+    flex-wrap: wrap;
+  }
+
+section.noticias .alimentaçao ul {
     flex-wrap: wrap;
   }
 
