@@ -563,7 +563,7 @@ section.noticias {
   font-family: "Merriweather", sans-serif;
 }
 
-section.banner .alimentacao {
+section.noticias .alimentacao {
   background-color: #d6d2b8;
   display: flex;
   align-items: center;
@@ -574,13 +574,13 @@ section.banner .alimentacao {
   margin-right: 100px;
 }
 
-section.banner div.resumo p {
+section.noticias div.resumo p {
   border-radius: 17px;
   line-height: 1.6;
   font-size: 1rem;
 }
 
-section.banner .yoga {
+section.noticias .yoga {
   width: 38px;
   height: auto;
 }
