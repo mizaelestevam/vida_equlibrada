@@ -569,7 +569,7 @@ section.noticias .alimentacao {
   align-items: center;
   gap: 20px;
   border-radius: 22px;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   box-shadow: 0 0 8px #556414;
   margin-right: 100px;
 }
@@ -581,7 +581,7 @@ section.noticias div.resumo p {
 }
 
 section.noticias .yoga {
-  width: 20vw;
+  width: 40vw;
   height: auto;
 }
 
