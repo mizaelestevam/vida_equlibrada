@@ -588,6 +588,7 @@ section.noticias div.resumo h3 {
 section.noticias .yoga {
   width: 40vw;
   height: auto;
+  justify-content: center;
 }
 
 section.noticias .equipe {
