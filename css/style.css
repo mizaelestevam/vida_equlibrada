@@ -271,9 +271,6 @@ section.banner .img {
   border-radius: 15px;
 }
 
-
-
-
 section.banner .informacao {
   background-color: #d6d2b8;
   align-items: flex-start;
@@ -352,18 +349,18 @@ section.banner .cardapio2 {
 
 section.banner div.lactose p {
   line-height: 1.6;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   font-weight: bold;
 }
 
 section.banner div.lactose h4 {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   padding: 2vw 2vw;
 }
 
 section.banner .comida {
-  width: 38vw;
+  width: 26vw;
   height: auto;
   object-fit: cover;
   border-radius: 20px;
@@ -569,7 +566,7 @@ section.noticias .alimentacao {
   align-items: center;
   gap: 20px;
   border-radius: 22px;
-  padding: 1vw 1vw 1vw 1vw;
+  padding: 2vw 2vw 2vw 2vw;
   box-shadow: 0 0 8px #556414;
   margin-right: 100px;
 }
@@ -577,16 +574,16 @@ section.noticias .alimentacao {
 section.noticias div.resumo p {
   border-radius: 17px;
   line-height: 1.6;
-  font-size: 0.7rem;
+font-size: 0.8rem;
 }
 
 section.noticias div.resumo h3 {
-  
-  font-size: 1.3rem;
+  padding: 2vw 5vw;
+  font-size: 1rem;
 }
 
 section.noticias .yoga {
-  width: 40vw;
+  width: 48vw;
   height: auto;
   justify-content: center;
 }
@@ -596,11 +593,11 @@ section.noticias .equipe {
   background-color: #d6d2b8;
   box-shadow: 0px 0px 8px #8fa52b;
   border-radius: 20px;
-  padding: 2vw 2vw 2vw 2vw;
+  padding: 3vw 4vw 3vw 4vw;
 }
 
 section.noticias .comentario p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
   display: flex;
   text-align: left;
@@ -608,14 +605,15 @@ section.noticias .comentario p {
 }
 
 section.noticias .comentario h4 {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: bold;
   display: flex;
-  padding:  2vw 1vw;
+  padding:  2vw 5vw;
 }
 
 section.noticias .lider {
-  width: 30vw;
+  width: 24vw;
+  justify-content: center;
 }
 
 section.noticias .manual {
@@ -1148,11 +1146,6 @@ footer div p span {
     margin: 2vw auto;
   }
 
-  section.banner .alimentacao {
-    flex-wrap: wrap;
-    margin-right: 2vw;
-  }
-
   section.banner h1 {
     flex-wrap: wrap;
   }
@@ -1189,11 +1182,14 @@ footer div p span {
     flex-wrap: wrap;
   }
 
-  section.noticias .alimentacao ul {
+  section.noticias .alimentacao{
     flex-wrap: wrap;
   }
 
   section.banner .atividade {
+    flex-wrap: wrap;
+  }
+  section.noticias .equipe{
     flex-wrap: wrap;
   }
 
