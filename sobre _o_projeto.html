@@ -22,6 +22,21 @@
                 </a>
             </h1>
 
+<div>
+
+                <button aria-label="menu" onclick="mostraMenu()">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </button>
+
+
+
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -71,7 +86,7 @@
                         </li>
 
                         <li class="atual">
-                            <a href="sobre _o_projeto.html">Sobre o projeto</a>
+                            <a href="sobre _o_projeto.html">Projeto</a>
                         </li>
 
                     </ul>
@@ -711,39 +726,62 @@
                 </a>
             </nav>
         </div>
+   <div class="bi">
+                    <h5>
+                        Mapa do Site
+                    </h5>
 
-        <div>
-            <h5>
-                Mapa do Site
-            </h5>
+                    <ul>
+                        <li>
+                            <a href="os benefícios.html"><span>Benefícios</span></a>
+                        </li>
 
-            <ul>
-                <li>
-                    <a href="os benefícios.html"><span>Benefícios</span></a>
-                </li>
+                        <li>
+                            <a href="Cardapio2.html"><span>Cardápio Especial</span></a>
+                        </li>
 
-                <li>
-                    <a href="cardapio.html"><span>Cardápio</span></a>
-                </li>
+                        <li>
+                            <a href="dicas.html"><span>Dicas</span></a>
+                        </li>
 
-                <li>
-                    <a href="dicas.html"><span>Dicas</span></a>
-                </li>
+                      
 
-            
+                        <li>
+                            <a href="sobre_nos.html"><span>Sobre Nós</span></a>
+                        </li>
 
-                <li>
-                    <a href="sobre_nos.html"><span>Sobre Nós</span></a>
-                </li>
+                        <li>
+                            <a href="sobre _o_projeto.html"><span>Projeto</span></a>
+                        </li>
+                    </ul>
 
-                <li>
-                    <a href="sobre _o_projeto.html"><span>Projeto</span></a>
-                </li>
-            </ul>
->
-        </div>
+                </div>
+            </footer>
 
-    </footer>
+
+            <script>
+                function mostraMenu() {
+                    console.log(`Olá Mundo`);
+
+                    const menu = document.querySelector("header nav div > ul");
+
+                    /*if (menu.style.display == "block") {
+                      menu.style.display = "none";
+                
+                    } else {
+                      menu.style.display = "block";
+                    }*/
+
+                    /*menu.style.height = menu.scrollHeight + "px";*/
+
+                    if (menu.style.height == menu.scrollHeight + "px") {
+                        menu.style.height = "0px";
+                    } else {
+                        menu.style.height = menu.scrollHeight + "px";
+                    }
+                }
+
+            </script>
 
 </body>
 
