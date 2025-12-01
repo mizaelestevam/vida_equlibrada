@@ -851,6 +851,13 @@ section.noticias .manual1 ul li h3 {
   font-size: 0.8rem;
 }
 
+section.noticias .video{
+  padding: 2vw 10vw 2vw 10vw;
+  width: 16vw;
+  display: flex;
+  gap: 4vw;
+}
+
 /*Vida-equilibrada*/
 
 section.banner h1 {
@@ -1190,6 +1197,10 @@ footer div p span {
     flex-wrap: wrap;
   }
   section.noticias .equipe{
+    flex-wrap: wrap;
+  }
+
+  section.noticias .video{
     flex-wrap: wrap;
   }
 
