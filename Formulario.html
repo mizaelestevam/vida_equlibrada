@@ -27,7 +27,7 @@
             <p>Quantas refeições completas você costuma fazer ao dia?</p>
 
             <form action="#">
-                <input type="text" placeholder="Insira aqui">
+                <input type="text" placeholder="              Insira aqui">
 
                 <br>
                 <button type="button" onclick="vaiParaPg2()">
@@ -38,7 +38,7 @@
 
         <section class="pg2">
             <h1>
-                <span>Fulano</span>, Você estuda no IFC?
+                
             </h1>
 
             <form action="#">
@@ -50,12 +50,7 @@
                     <label for="turma">
                         turma
                     </label>
-    
-                    <select name="turma" id="turma">
-                        <option value="1info1">1info1</option>
-                        <option value="1info2">1info2</option>
-                        <option value="1info3">1info3</option>
-                    </select>
+
                 </p>
 
 <p>
@@ -107,6 +102,8 @@
 
             <p>Você e da turma <span>1INFOX</span></p>
 
+            <p class="resp1"></p>
+
 
 
         </section>
@@ -119,6 +116,8 @@
         const pg4 = document.querySelector('.pg4');
         let refeicoes = "";
         let turma = "";
+        let peso = "";
+        let altura = "";
 
         function vaiParaPg2() {
             pg1.style.display = "none";
@@ -131,21 +130,31 @@
 
             //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
 
+            resp1 = document.querySelector("section.pg4 p.resp1");
+
 
             if (refeicoes >= 3 && refeicoes <= 5) {
-                alert(`Parabéns, você se alimenta o ideal por dia.`);
+                resp1.innerHTML = `Parabéns, você se alimenta o ideal por dia.`
+                //alert();
 
             } else if (refeicoes >= 6) {
-                alert(`Essa quantidade pode ser prejudicial para a saúde, e é recomendado apenas para pessoas que gostariam de ganhar massa corporal.`);
-                window.location.href = "https://www.tuasaude.com/dieta-para-aumentar-a-massa-muscular/";
+
+                resp1.innerHTML = `Essa quantidade pode ser prejudicial para a saúde, e é recomendado apenas para pessoas que gostariam de ganhar massa corporal. \n <a href="https://www.tuasaude.com/dieta-para-aumentar-a-massa-muscular/"> Saiba Mais</a>.`
+                //alert();
+                //window.location.href = "";
 
             } else if (refeicoes <= 0) {
+                
                 alert(`Insira um valor valido!`);
+
+                pg1.style.display = "block";
+                pg2.style.display = "none";
 
 
             } else if (refeicoes < 3) {
-                alert(`Você está comento menos que o recomendado.`);
-                window.location.href = "https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/";
+                resp1.innerHTML = `Você está comento menos que o recomendado. \n <a "https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/"> Saiba Mais</a>. `
+               //alert();
+                //window.location.href = ;
 
             }
 
