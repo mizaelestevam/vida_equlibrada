@@ -11,7 +11,7 @@
             display: none;
         }
 
-        main section.pg1 {
+        main section.pg3 {
             display: block;
         }
     </style>
@@ -37,45 +37,37 @@
         </section>
 
         <section class="pg2">
+
             <h1>
-                
+                Calcule seu IMC
             </h1>
+            <p> </p>
+
+
 
             <form action="#">
-                <p>
+                <label for="altura">Altura:</label>
+                <input type="text" id="altura" placeholder=" Informe sua altura">
 
-                    <input type="text" placeholder="Insira aqui">
-                </p>
-                <p>
-                    <label for="turma">
-                        turma
-                    </label>
+                <br>
+                <label for="peso">Peso:</label>
+                <input type="text" id="peso" placeholder=" Informe seu peso">
 
-                </p>
-
-<p>
-    <label>
-        <input type="radio" name="estudante" value="1">Sim
-    </label>
-
-    <label>
-        <input type="radio" name="estudante" value="0">Não
-    </label>
-
-</p>
-                
+                <br>
                 <button type="button" onclick="vaiParaPg3()">
                     Próximo
                 </button>
             </form>
-
         </section>
 
         <section class="pg3" onclick="vaiParaPg4()">
 
             <h1>
-                Qual turma você pertence?
+                Prato Ideal
             </h1>
+
+            <p>No seu prato possui Carboidratos, Proteínas, Vegetais/Verduras e
+            Gorduras Saudáveis?</p>
 
             <form action="#">
                 <label for="turma">
@@ -83,9 +75,8 @@
                 </label>
 
                 <select name="turma" id="turma">
-                    <option value="1info1">1info1</option>
-                    <option value="1info2">1info2</option>
-                    <option value="1info3">1info3</option>
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
                 </select>
 
                 <button type="button">
@@ -100,9 +91,8 @@
                 Saudações, <span>Fulano!</span>
             </h1>
 
-            <p>Você e da turma <span>1INFOX</span></p>
-
             <p class="resp1"></p>
+            <p class="resp2"></p>
 
 
 
@@ -125,8 +115,8 @@
 
             refeicoes = Number(document.querySelector("section.pg1 input").value);
 
-            document.querySelector("section.pg2 h1 span").innerHTML = refeicoes;
-                
+           // document.querySelector("section.pg2 h1 span").innerHTML = refeicoes;
+
 
             //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
 
@@ -144,7 +134,7 @@
                 //window.location.href = "";
 
             } else if (refeicoes <= 0) {
-                
+
                 alert(`Insira um valor valido!`);
 
                 pg1.style.display = "block";
@@ -152,8 +142,8 @@
 
 
             } else if (refeicoes < 3) {
-                resp1.innerHTML = `Você está comento menos que o recomendado. \n <a "https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/"> Saiba Mais</a>. `
-               //alert();
+                resp1.innerHTML = `Você está comento menos que o recomendado. \n <a href="https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/"> Saiba Mais</a>. `
+                //alert();
                 //window.location.href = ;
 
             }
@@ -161,40 +151,50 @@
         }
 
         function vaiParaPg3() {
-            let estudante = document.querySelector("input[name='estudante']:checked").value;
 
-   
+            pg2.style.display = "none";
+            pg3.style.display = "block";
 
-    if (peso > 0 && altura > 0) {
-        const imc = peso / (altura * altura);
-        let classificacao = '';
+            altura = Number(document.querySelector("section.pg2 input#altura").value);
+            peso = Number(document.querySelector("section.pg2  input#peso").value);
 
-        if (imc < 18.5) {
-            classificacao = 'Abaixo do peso';
-            alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`);
-            window.location.href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429";
-
-        } else if (imc >= 18.5 && imc < 24.9) {
-            classificacao = 'Peso normal';
-            alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
-            
-            
-        } else if (imc >= 25 && imc < 29.9) {
-            classificacao = 'Sobrepeso';
-            alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
-            window.location.href = " https://boomi.com.br/alimentacao-no-tratamento-do-sobrepeso-e-obesidade/?srsltid=AfmBOoqxPtbAWa5UAgKInb-cIdxXZZU1VQ1ATkN8bfihrrUk4MHmGq1D";
-
-        } else {
-            classificacao = 'Obesidade';
-            alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`);
-            window.location.href = "https://www.spedm.pt/pt/glandulas-e-doencas-endocrinas/recomendacoes-nutricionais-na-obesidade";
-
-        }
+            resp2 = document.querySelector("section.pg4 p.resp2");
 
 
-    } else {
-        alert('Por favor, insira valores válidos para peso é altura.');
-    }
+            if (peso > 0 && altura > 0) {
+                const imc = peso / (altura * altura);
+                let classificacao = '';
+
+                if (imc < 18.5) {
+                    classificacao = 'Abaixo do peso';
+                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`;
+                    //window.location.href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429";
+
+                } else if (imc >= 18.5 && imc < 24.9) {
+                    classificacao = 'Peso normal';
+                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`;
+
+                    //alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
+
+
+                } else if (imc >= 25 && imc < 29.9) {
+                    classificacao = 'Sobrepeso';
+                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`;
+                    // alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
+                    //window.location.href = "";
+                } else {
+                    classificacao = 'Obesidade';
+                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`;
+                    // alert()`);
+                    //window.location.href = "";
+
+                }
+
+
+            } else {
+                resp2.innerHTML = 'Por favor, insira valores válidos para peso ou altura.';
+                //alert();
+            }
 
             /*
             if (estud == 1) {
@@ -211,6 +211,7 @@
         }
 
         function vaiParaPg4() {
+
             pg3.style.display = "none";
             pg4.style.display = "block";
 
