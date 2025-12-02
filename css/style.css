@@ -406,7 +406,7 @@ section.banner div.forte p {
 }
 
 section.banner .equilibrio {
-  width: 68;
+  width: 68vw;
   height: auto;
 }
 
@@ -467,8 +467,8 @@ section.banner .exemplos {
   background-color: #566964;
   border-radius: 20px;
   padding: 2vw 10vw 2vw 10vw;
-  box-shadow: 1px #58680f;
-  width: 80;
+  box-shadow: 0px 0px 8px 0px #58680f;
+  width: 80vw;
   margin: 4.8vw 0.3vw;
   text-align: left;
 }
@@ -488,7 +488,7 @@ section.banner .ali p {
 
 section.banner .imagens {
   background: #b9af8c;
-  box-shadow: 1px #a5b170;
+  box-shadow: 0px 0px 8px 0px #a5b170;
   border-radius: 12vw;
   gap: 20px;
   display: flex;
