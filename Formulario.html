@@ -60,7 +60,7 @@
             </form>
         </section>
 
-        <section class="pg3" onclick="vaiParaPg4()">
+        <section class="pg3">
 
             <h1>
                 Prato Ideal
@@ -76,10 +76,10 @@
 
                 <select name="prato" id="prato">
                     <option value="Sim">Sim</option>
-                    <option value="Não">Não</option>
+                    <option value="não">não</option>
                 </select>
 
-                <button type="button">
+                <button type="button" onclick="vaiParaPg4()">
                     Próximo
                 </button>
             </form>
@@ -177,7 +177,7 @@
                     //alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
 
 
-                } else if (imc >= 25 && imc < 29.9) {
+                } else if (imc >= 25 && imc <= 29.9) {
                     classificacao = 'Sobrepeso';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`;
                     // alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
@@ -195,6 +195,7 @@
                 resp2.innerHTML = 'Por favor, insira valores válidos para peso ou altura.';
                 //alert();
             }
+
 
             /*
             if (estud == 1) {
@@ -218,10 +219,18 @@
             prato = document.querySelector("section.pg3 select").value;
             resp3 = document.querySelector("section.pg4 p.resp3");
 
-            if (prato == sim) {
-                alert(`Você se alimenta muito bem`);
-            } else {
-                alert(`Você se alimenta mal`);
+            switch (prato) {
+                case "sim":
+                    resp3.innerHTML = `Você se alimenta muito bem`;
+                    break;
+
+                case "não":
+                    resp3.innerHTML = `Você se alimenta de forma não  recomendada <a href="https://viverbem.unimedbh.com.br/qualidade-de-vida/prato-saudavel/">Saiba mais</a> `;
+                    break;
+
+                default:
+                    resp3.innerHTML = `Insira um valor válido`;
+                    break;
             }
 
         }
