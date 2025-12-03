@@ -181,7 +181,6 @@ header button {
   background-color: #d6d2b8;
   border-radius: 1.2vw;
   display: none;
-
 }
 
 /*banner*/
@@ -575,7 +574,7 @@ section.noticias .alimentacao {
 section.noticias div.resumo p {
   border-radius: 17px;
   line-height: 1.6;
-font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 section.noticias div.resumo h3 {
@@ -604,7 +603,7 @@ section.noticias .comentario p {
   text-align: left;
 }
 
-section.noticias h3{
+section.noticias h3 {
   padding: 2vw 10vw;
   font-size: 1.5rem;
 }
@@ -613,7 +612,7 @@ section.noticias .comentario h4 {
   font-size: 1.4rem;
   font-weight: bold;
   display: flex;
-  padding:  2vw 5vw;
+  padding: 2vw 5vw;
 }
 
 section.noticias .lider {
@@ -856,7 +855,7 @@ section.noticias .manual1 ul li h3 {
   font-size: 0.8rem;
 }
 
-section.noticias .video{
+section.noticias .video {
   padding: 2vw 10vw;
   display: flex;
   gap: 4vw;
@@ -991,14 +990,14 @@ main section.pg1 button {
 }
 
 main section.pg1 h1 {
-  font-size: 8vw;
+  font-size: 6vw;
   color: black;
 }
 
 /*pg2*/
 
-main section.pg2{
-display: block;
+main section.pg2 {
+  display: block;
   width: fit-content;
   margin: 0 auto;
   padding: 30px;
@@ -1015,18 +1014,13 @@ main section.pg2 input {
 }
 
 main section.pg2 h1 {
-  font-size: 8vw;
+  font-size: 6vw;
   color: black;
-}
-
-main section.pg2 p {
-  font-size: 30px;
 }
 
 main section.pg2 label {
   display: block;
   padding: 1.3vw;
-
 }
 
 main section.pg2 input::placeholder {
@@ -1043,10 +1037,70 @@ main section.pg2 button {
   padding: 2vw 10vw;
   box-shadow: 0px 0px 8px #113028;
   cursor: pointer;
-
 }
 
+/*pg3*/
 
+main section.pg3 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 8px #8f7d3c;
+}
+
+main section.pg3 button {
+  background-color: #8f7d3c;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  padding: 1.3vw 3vw;
+  box-shadow: 0px 0px 8px #113028;
+  cursor: pointer;
+}
+
+main section.pg3 p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(53, 46, 46);
+}
+
+main section.pg3 h1 {
+  font-size: 6vw;
+  color: black;
+}
+
+main section.pg3 label{
+  color:  black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/*pg5*/
+
+main section.pg5 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 8px #8f7d3c;
+}
+
+main section.pg5 h1{
+color: black;
+font-size: 6vw;
+}
+
+main section.pg5 p{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(53, 46, 46);
+}
 
 /*footer*/
 footer {
@@ -1138,7 +1192,7 @@ footer div p span {
     display: block;
   }
 
-  header nav div>ul {
+  header nav div > ul {
     /*display: none;*/
     height: 0px;
     overflow: hidden;
@@ -1197,18 +1251,18 @@ footer div p span {
     flex-wrap: wrap;
   }
 
-  section.noticias .alimentacao{
+  section.noticias .alimentacao {
     flex-wrap: wrap;
   }
 
   section.banner .atividade {
     flex-wrap: wrap;
   }
-  section.noticias .equipe{
+  section.noticias .equipe {
     flex-wrap: wrap;
   }
 
-  section.noticias .video{
+  section.noticias .video {
     flex-wrap: wrap;
   }
 
