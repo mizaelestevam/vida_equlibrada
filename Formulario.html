@@ -11,7 +11,7 @@
             display: none;
         }
 
-        main section.pg3 {
+        main section.pg1 {
             display: block;
         }
     </style>
@@ -67,7 +67,7 @@
             </h1>
 
             <p>No seu prato possui Carboidratos, Proteínas, Vegetais/Verduras e
-            Gorduras Saudáveis?</p>
+                Gorduras Saudáveis?</p>
 
             <form action="#">
                 <label for="prato">
@@ -88,12 +88,12 @@
 
         <section class="pg4">
             <h1>
-                Saudações, <span>Fulano!</span>
+                Seu resultado
             </h1>
 
             <p class="resp1"></p>
             <p class="resp2"></p>
-
+            <p class="resp3"></p>
 
 
         </section>
@@ -105,7 +105,7 @@
         const pg3 = document.querySelector('.pg3');
         const pg4 = document.querySelector('.pg4');
         let refeicoes = "";
-        let turma = "";
+        let prato = "";
         let peso = "";
         let altura = "";
 
@@ -115,7 +115,7 @@
 
             refeicoes = Number(document.querySelector("section.pg1 input").value);
 
-           // document.querySelector("section.pg2 h1 span").innerHTML = refeicoes;
+            // document.querySelector("section.pg2 h1 span").innerHTML = refeicoes;
 
 
             //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
@@ -215,15 +215,17 @@
             pg3.style.display = "none";
             pg4.style.display = "block";
 
-            nome = document.querySelector("section.pg1 input").value;
+            prato = document.querySelector("section.pg3 select").value;
+            resp3 = document.querySelector("section.pg4 p.resp3");
 
-            document.querySelector("section.pg4 h1 span").innerHTML = nome;
-
-            turma = document.querySelector("section.pg3 select").value;
-
-            document.querySelector("section.pg4 p span").innerHTML = turma;
+            if (prato == sim) {
+                alert(`Você se alimenta muito bem`);
+            } else {
+                alert(`Você se alimenta mal`);
+            }
 
         }
+
     </script>
 </body>
 
