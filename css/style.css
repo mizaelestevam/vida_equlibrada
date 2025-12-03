@@ -602,7 +602,11 @@ section.noticias .comentario p {
   text-align: center;
   display: flex;
   text-align: left;
+}
 
+section.noticias h3{
+  padding: 2vw 10vw;
+  font-size: 1.5rem;
 }
 
 section.noticias .comentario h4 {
