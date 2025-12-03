@@ -953,16 +953,17 @@ main section.pg1 {
   margin: 0 auto;
   padding: 30px;
   text-align: center;
+  box-shadow: 0px 0px 8px #8f7d3c;
 }
 
 main section.pg1 h1 {
-  font-size: 40px;
+  font-size: 4px;
 }
 
 main section.pg1 p {
-  font-size: 30px;
-  color: #7c7c7f;
-  font-weight: 200;
+  font-size: 25px;
+  color: rgb(53, 46, 46);
+  font-weight: bold;
 }
 
 main section.pg1 input {
@@ -975,70 +976,73 @@ main section.pg1 input {
 
 main section.pg1 input::placeholder {
   font-size: 1rem;
-
-
+  color: black;
 }
 
 main section.pg1 button {
-
-  background-color: #2d7fd1;
+  background-color: #8f7d3c;
   font-weight: bolder;
-  font-size: 23px;
+  font-size: 18px;
   border-radius: 5px;
   color: white;
-  padding: 10px 90px 10px 90px;
+  padding: 2vw 10vw;
+  box-shadow: 0px 0px 8px #113028;
+  cursor: pointer;
+}
 
+main section.pg1 h1 {
+  font-size: 8vw;
+  color: black;
 }
 
 /*pg2*/
 
-main section.pg2 {
-  display: none;
-}
-
-main section.pg2 {
-  display: none;
+main section.pg2{
+display: block;
   width: fit-content;
   margin: 0 auto;
   padding: 30px;
   text-align: center;
+  box-shadow: 0px 0px 8px #8f7d3c;
+}
+
+main section.pg2 input {
+  border: 1px solid #85878a;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1rem;
+  margin: 10px;
 }
 
 main section.pg2 h1 {
-  font-size: 40px;
-  color: black;
-}
-
-main section.pg1 h1 {
-  font-size: 40px;
+  font-size: 8vw;
   color: black;
 }
 
 main section.pg2 p {
   font-size: 30px;
-  color: #7c7c7f;
-  font-weight: 200;
 }
 
 main section.pg2 label {
   display: block;
-  padding: 3px;
+  padding: 1.3vw;
 
 }
-
 
 main section.pg2 input::placeholder {
   font-size: 1rem;
+  color: black;
 }
 
 main section.pg2 button {
-
-  background-color: #2d7fd1;
+  background-color: #8f7d3c;
   font-weight: bolder;
   font-size: 23px;
   border-radius: 5px;
   color: white;
-  padding: 10px 90px 10px 90px;
+  padding: 2vw 10vw;
+  box-shadow: 0px 0px 8px #113028;
+  cursor: pointer;
 
 }
 
