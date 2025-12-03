@@ -858,7 +858,7 @@ section.noticias .manual1 ul li h3 {
 
 section.noticias .video{
   padding: 2vw 10vw;
-  width: 120vw;
+  display: flex;
   gap: 4vw;
 }
 
