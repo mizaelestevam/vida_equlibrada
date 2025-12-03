@@ -857,9 +857,8 @@ section.noticias .manual1 ul li h3 {
 }
 
 section.noticias .video{
-  padding: 2vw 10vw 2vw 10vw;
-  width: 16vw;
-  display: flex;
+  padding: 2vw 10vw;
+  width: 120vw;
   gap: 4vw;
 }
 
