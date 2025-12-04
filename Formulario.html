@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style>
-        main section {
+        main section.pg2 {
+            display: none;
+        }
+
+        main section.pg3 {
+            display: none;
+        }
+
+main section.pg5 {
+            display: none;
+        }
+
+main section.pg5 {
             display: none;
         }
 
@@ -84,18 +96,42 @@
 
         </section>
 
-<section class="pg4">
+        <section class="pg4">
 
-</section>
+            <h1>
+                Alimentos ultraprocessados
+            </h1>
+
+            <p>
+                Você costuma comer ultraprocessados mais de 3 vezes por semana?
+            </p>
+
+            <form action="#">
+                <label for="ultraprocessados">
+                    Alternativa:
+                </label>
+
+                <select name="ultraprocessados" id="ultraprocessados">
+                    <option value="sim">Sim</option>
+                    <option value="não">não</option>
+                </select>
+
+                <button type="button" onclick="vaiParaPg5()">
+                    Próximo
+                </button>
+            </form>
+
+        </section>
 
         <section class="pg5">
             <h1>
-             Suas respostas!
+                Suas respostas!
             </h1>
 
             <p class="resp1"></p>
             <p class="resp2"></p>
             <p class="resp3"></p>
+            <p class="resp4"></p>
 
 
         </section>
@@ -111,6 +147,7 @@
         let prato = "";
         let peso = "";
         let altura = "";
+        let ultraprocessados = "";
 
 
         function vaiParaPg2() {
@@ -124,7 +161,7 @@
 
             //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
 
-            resp1 = document.querySelector("section.pg4 p.resp1");
+            resp1 = document.querySelector("section.pg5 p.resp1");
 
 
             if (refeicoes >= 3 && refeicoes <= 5) {
@@ -162,7 +199,7 @@
             altura = Number(document.querySelector("section.pg2 input#altura").value);
             peso = Number(document.querySelector("section.pg2  input#peso").value);
 
-            resp2 = document.querySelector("section.pg4 p.resp2");
+            resp2 = document.querySelector("section.pg5 p.resp2");
 
 
             if (peso > 0 && altura > 0) {
@@ -221,7 +258,7 @@
             pg4.style.display = "block";
 
             prato = document.querySelector("section.pg3 select").value;
-            resp3 = document.querySelector("section.pg4 p.resp3");
+            resp3 = document.querySelector("section.pg5 p.resp3");
 
             switch (prato) {
                 case "sim":
@@ -234,6 +271,30 @@
 
                 default:
                     resp3.innerHTML = `Insira um valor válido`;
+                    break;
+            }
+
+        }
+
+        function vaiParaPg5() {
+
+            pg4.style.display = "none";
+            pg5.style.display = "block";
+
+            ultraprocessados = document.querySelector("section.pg4 select").value;
+            resp4 = document.querySelector("section.pg5 p.resp4");
+
+            switch (ultraprocessados) {
+                case "sim":
+                    resp4.innerHTML = `Você está comendo com muito excesso isso pode ser prejudicial a sua saúde <a href="https://idec.org.br/dicas-e-direitos/voce-sabe-o-que-realmente-tem-dentro-dos-produtos-que-consome-todos-os-dias-os">Saiba mais</a>`;
+                    break;
+
+                case "não":
+                    resp4.innerHTML = `Parabéns você está comendo com sabedoria <a href="https://www.cnnbrasil.com.br/saude/o-que-acontece-com-corpo-quando-se-come-muitos-ultraprocessados-entenda/">Seus efeitos</a> `;
+                    break;
+
+                default:
+                    resp4.innerHTML = `Insira um valor válido`;
                     break;
             }
 

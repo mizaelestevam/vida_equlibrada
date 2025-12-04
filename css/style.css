@@ -949,7 +949,7 @@ section.banner4 p img {
 main section.pg1 {
   display: block;
   width: fit-content;
-  margin: 0 auto;
+  margin: 11vw auto;
   padding: 30px;
   text-align: center;
   box-shadow: 0px 0px 8px #8f7d3c;
@@ -981,10 +981,10 @@ main section.pg1 input::placeholder {
 main section.pg1 button {
   background-color: #8f7d3c;
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 25px;
   border-radius: 5px;
   color: white;
-  padding: 2vw 10vw;
+  padding: 0.9vw 6vw;
   box-shadow: 0px 0px 8px #113028;
   cursor: pointer;
 }
@@ -999,7 +999,7 @@ main section.pg1 h1 {
 main section.pg2 {
   display: block;
   width: fit-content;
-  margin: 0 auto;
+  margin: 11vw auto;
   padding: 30px;
   text-align: center;
   box-shadow: 0px 0px 8px #8f7d3c;
@@ -1044,7 +1044,7 @@ main section.pg2 button {
 main section.pg3 {
   display: block;
   width: fit-content;
-  margin: 0 auto;
+  margin: 11vw auto;
   padding: 30px;
   text-align: center;
   box-shadow: 0px 0px 8px #8f7d3c;
@@ -1079,12 +1079,35 @@ main section.pg3 label{
   font-size: 1rem;
 }
 
+/*pg4*/
+
+main section.pg4 {
+  display: block;
+  width: fit-content;
+  margin: 11vw auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 8px #8f7d3c;
+}
+
+main section.pg4 h1{
+color: black;
+font-size: 6vw;
+}
+
+main section.pg4 p{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(53, 46, 46);
+}
+
 /*pg5*/
 
 main section.pg5 {
   display: block;
   width: fit-content;
-  margin: 0 auto;
+  margin: 11vw auto;
   padding: 30px;
   text-align: center;
   box-shadow: 0px 0px 8px #8f7d3c;
@@ -1101,6 +1124,18 @@ main section.pg5 p{
   line-height: 1.6;
   color: rgb(53, 46, 46);
 }
+
+main section.pg5 button {
+  background-color: #8f7d3c;
+  font-weight: bolder;
+  font-size: 25px;
+  border-radius: 5px;
+  color: white;
+  padding: 0.9vw 6vw;
+  box-shadow: 0px 0px 8px #113028;
+  cursor: pointer;
+}
+
 
 /*footer*/
 footer {
