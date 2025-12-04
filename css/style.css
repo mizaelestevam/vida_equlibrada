@@ -38,8 +38,7 @@ img {
   object-fit: cover;
 }
 
-img,
-video {
+img {
   max-width: 100%;
   height: auto;
 }
@@ -545,6 +544,10 @@ section.banner .yoga {
   height: auto;
 }
 
+section.banner .bh h1{
+  font-size: 1.9rem;
+}
+
 /*receitas*/
 section.receitas {
   justify-content: center;
@@ -856,9 +859,20 @@ section.noticias .manual1 ul li h3 {
 }
 
 section.noticias .video {
-  padding: 2vw 10vw;
-  display: flex;
-  gap: 4vw;
+ position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+}
+
+section.noticias .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*Vida-equilibrada*/
