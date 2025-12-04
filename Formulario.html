@@ -16,11 +16,11 @@
             display: none;
         }
 
-main section.pg5 {
+        main section.pg4 {
             display: none;
         }
 
-main section.pg5 {
+        main section.pg5 {
             display: none;
         }
 
@@ -113,7 +113,7 @@ main section.pg5 {
 
                 <select name="ultraprocessados" id="ultraprocessados">
                     <option value="sim">Sim</option>
-                    <option value="não">não</option>
+                    <option value="não">Não</option>
                 </select>
 
                 <button type="button" onclick="vaiParaPg5()">
@@ -208,7 +208,7 @@ main section.pg5 {
 
                 if (imc < 18.5) {
                     classificacao = 'Abaixo do peso';
-                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`;
+                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao} <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429">saiba mais</a>)`;
                     //window.location.href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429";
 
                 } else if (imc >= 18.5 && imc < 24.9) {
