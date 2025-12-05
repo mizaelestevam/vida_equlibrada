@@ -332,7 +332,7 @@ section.banner .a a {
   padding: 0.4vw 1vw 0.4vw 1vw;
   border-radius: 9px;
   gap: 20vw;
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -1265,6 +1265,10 @@ footer div p span {
 
   section.banner .cardapio {
     flex-wrap: wrap;
+  }
+
+  section.banner .cardapio img{
+ margin: 2vw 20vw;
   }
 
   section.banner .cardapio2 {
