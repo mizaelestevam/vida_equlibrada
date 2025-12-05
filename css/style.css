@@ -465,7 +465,7 @@ section.banner .fisica {
 section.banner .exemplos {
   background-color: #566964;
   border-radius: 20px;
-  padding: 2vw 10vw 2vw 10vw;
+  padding: 2vw 3vw;
   box-shadow: 0px 0px 8px 0px #58680f;
   width: 80vw;
   margin: 4.8vw 0.3vw;
@@ -1277,6 +1277,10 @@ footer div p span {
 
   section.noticias .manual1 ul {
     flex-wrap: wrap;
+  }
+
+  section.banner .exemplos h3{
+   flex-wrap: wrap;
   }
 
   section.noticias .ideia ul {
