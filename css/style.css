@@ -867,7 +867,7 @@ section.noticias .video {
   padding: 2vw 10vw;
   display: flex;
   gap: 4vw;
-  width: 200vw;
+  width: 16vw;
 }
 
 /*Vida-equilibrada*/
@@ -1312,6 +1312,7 @@ footer div p span {
 
   section.noticias .video {
     flex-wrap: wrap;
+    width: 38vw;
   }
 
   footer {
