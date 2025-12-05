@@ -201,11 +201,13 @@
 
             resp2 = document.querySelector("section.pg5 p.resp2");
 
+            console.log(peso, altura);
+
 
             if (peso > 0 && altura > 0) {
                 const imc = peso / (altura * altura);
                 let classificacao = '';
-
+                console.log(imc)
                 if (imc < 18.5) {
                     classificacao = 'Abaixo do peso';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao} <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429">saiba mais</a>)`;
@@ -218,7 +220,7 @@
                     //alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
 
 
-                } else if (imc >= 25 && imc <= 29.9) {
+                } else if (imc >= 224.9 && imc <= 29.9) {
                     classificacao = 'Sobrepeso';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`;
                     // alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
