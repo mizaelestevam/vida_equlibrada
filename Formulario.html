@@ -52,12 +52,12 @@
         <section class="pg2">
 
             <h1>
-                Calcule seu IMC
+                Calcule seu IMC 
             </h1>
 
             <form action="#">
                 <label for="altura">Altura:</label>
-                <input type="text" id="altura" placeholder="       Informe sua altura">
+                <input type="text" id="altura" placeholder="Informe sua altura(ex: 1.75) ">
 
                 <br>
                 <label for="peso">Peso:</label>
@@ -208,6 +208,7 @@
                 const imc = peso / (altura * altura);
                 let classificacao = '';
                 console.log(imc)
+
                 if (imc < 18.5) {
                     classificacao = 'Abaixo do peso';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao} <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429">saiba mais</a>)`;
