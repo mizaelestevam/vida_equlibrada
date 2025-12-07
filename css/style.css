@@ -251,6 +251,11 @@ section.banner .cardapio {
   box-shadow: 0 0 8px #586909;
 }
 
+section.banner .cardapio h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 section.banner .parte02 {
   border-radius: 100vw;
 }
@@ -261,8 +266,13 @@ section.banner div.tex p {
   font-size: 0.9rem;
 }
 
-section.banner .espaco h6 {
+section.banner div.tex strong {
+  font-size: 1rem;
+}
+
+section.banner .espaco h2 {
   line-height: 1.6;
+  font-size: 1.2rem;
 }
 
 section.banner .img {
@@ -329,11 +339,10 @@ section.banner div.dicas p {
 section.banner .a a {
   background-color: #b3a46b;
   color: white;
-  padding: 0.4vw 1vw 0.4vw 1vw;
-  border-radius: 9px;
+  padding: 1vw 3vw;
+  border-radius: 22px;
   gap: 20vw;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 section.banner .cardapio2 {
@@ -354,8 +363,8 @@ section.banner div.lactose p {
   font-weight: bold;
 }
 
-section.banner div.lactose h4 {
-  font-size: 1.4rem;
+section.banner div.lactose h2 {
+  font-size: 1.7rem;
   padding: 2vw 2vw;
 }
 
@@ -463,21 +472,22 @@ section.banner .fisica {
 }
 
 section.banner .exemplos {
-  background-color: #566964;
+  background-color: #8f7d3c;
   border-radius: 20px;
-  padding: 2vw 3vw;
-  box-shadow: 0px 0px 8px 0px #58680f;
+  padding: 3vw 2vw;
+  box-shadow: 0px 0px 8px #58680f;
   width: 80vw;
-  margin: 4.8vw 0.3vw;
+  margin: 5vw 0vw;
   text-align: left;
 }
 
 section.banner .exemplos p {
   color: white;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
   text-align: left;
+  margin: 1vw 3vw;
 }
 
 section.banner .ali p {
@@ -532,10 +542,6 @@ section.banner .b h2 {
   line-height: 1.6;
 }
 
-section.banner .espaco h3 {
-  line-height: 2.3;
-}
-
 section.banner .espaco {
   line-height: 1.8;
 }
@@ -545,7 +551,7 @@ section.banner .yoga {
   height: auto;
 }
 
-section.banner .bh h1{
+section.banner .bh h1 {
   font-size: 1.9rem;
 }
 
@@ -594,9 +600,7 @@ section.noticias .yoga {
 
 section.noticias .equipe {
   display: flex;
-  background-color: #d6d2b8;
-  box-shadow: 0px 0px 8px #8fa52b;
-  border-radius: 20px;
+  border-radius: 30vw;
   padding: 3vw 4vw 3vw 4vw;
 }
 
@@ -613,14 +617,14 @@ section.noticias h3 {
 }
 
 section.noticias .comentario h4 {
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   font-weight: bold;
   display: flex;
-  padding: 2vw 5vw;
+  padding: 1vw 2vw;
 }
 
 section.noticias .lider {
-  width: 24vw;
+  width: 30vw;
   justify-content: center;
 }
 
@@ -689,16 +693,20 @@ section.noticias .ideia3 ul li {
 
 section.noticias .ideia3 ul li a {
   align-items: center;
-  padding: 0px 5px 0px 5px;
-  font-size: 0.6rem;
+  padding: 0.8vw 2vw;
+  font-size: 0.8rem;
   background-color: #8f7d3c;
   color: white;
   border-radius: 20px;
 }
 
-section.noticias .ideia3 h4 {
-  font-size: 1rem;
+section.noticias .ideia3 h2 {
+  font-size: 1.5rem;
   line-height: 1.6;
+}
+
+section.noticias .ideia3 img {
+  width: 20vw;
 }
 
 section.noticias .ideia ul li {
@@ -716,7 +724,6 @@ section.noticias .ideia ul li a {
   background-color: #8f7d3c;
   color: white;
   border-radius: 20px;
-  
 }
 
 section.noticias .ideia h2 {
@@ -725,13 +732,12 @@ section.noticias .ideia h2 {
 }
 
 section.noticias .a a {
-  background-color: #b3a46b;
+  background-color: #8f7d3c;
   color: white;
-  padding: 0.4vw 1vw 0.4vw 1vw;
-  border-radius: 9px;
+  padding: 1vw 3vw;
+  border-radius: 20px;
   gap: 20vw;
-  font-size: 0.6rem;
-  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 section.noticias .ideia ul li p {
@@ -800,16 +806,16 @@ section.noticias .ideia1 ul li {
 }
 
 section.noticias .ideia1 ul li p {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   padding: 1vw 1.4vw 1vw 1.4vw;
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-align: left;
 }
 
-section.noticias .ideia1 h5 {
+section.noticias .ideia1 h2 {
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   line-height: 1.6;
 }
 
@@ -821,9 +827,9 @@ section.noticias .espaco {
 section.noticias .ideia1 a {
   background-color: #3a503f;
   color: white;
-  border-radius: 10px;
-  padding: 0px 8px 0px 8px;
-  font-size: 0.6rem;
+  border-radius: 22px;
+  padding: 1vw 2vw;
+  font-size: 0.8rem;
 }
 
 section.noticias .manual1 {
@@ -839,7 +845,6 @@ section.noticias .manual1 ul li {
   border-radius: 15px;
   align-items: center;
   color: white;
-
   box-shadow: 0 0 8px #374207;
 }
 
@@ -854,15 +859,15 @@ section.noticias .manual ul li a {
 section.noticias .manual1 ul li a {
   background-color: #a89b67;
   color: white;
-  border-radius: 10px;
-  padding: 1px 10px 1px 10px;
+  border-radius: 22px;
+  padding: 1vw 2vw;
   font-size: 0.8rem;
 }
 
-section.noticias .manual1 ul li h3 {
-  font-size: 1rem;
+section.noticias .manual1 ul li h2 {
+  font-size: 1.2rem;
+  margin: 2vw 0vw;
 }
-
 
 section.noticias .video {
   padding: 2vw 10vw;
@@ -1083,8 +1088,8 @@ main section.pg3 h1 {
   color: black;
 }
 
-main section.pg3 label{
-  color:  black;
+main section.pg3 label {
+  color: black;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -1100,12 +1105,12 @@ main section.pg4 {
   box-shadow: 0px 0px 8px #8f7d3c;
 }
 
-main section.pg4 h1{
-color: black;
-font-size: 6vw;
+main section.pg4 h1 {
+  color: black;
+  font-size: 6vw;
 }
 
-main section.pg4 p{
+main section.pg4 p {
   font-size: 25px;
   font-weight: bold;
   line-height: 1.6;
@@ -1123,7 +1128,6 @@ main section.pg4 button {
   cursor: pointer;
 }
 
-
 /*pg5*/
 
 main section.pg5 {
@@ -1135,12 +1139,12 @@ main section.pg5 {
   box-shadow: 0px 0px 8px #8f7d3c;
 }
 
-main section.pg5 h1{
-color: black;
-font-size: 6vw;
+main section.pg5 h1 {
+  color: black;
+  font-size: 6vw;
 }
 
-main section.pg5 p{
+main section.pg5 p {
   font-size: 25px;
   font-weight: bold;
   line-height: 1.6;
@@ -1268,8 +1272,8 @@ footer div p span {
     flex-wrap: wrap;
   }
 
-  section.banner .cardapio img{
- margin: 2vw 20vw;
+  section.banner .cardapio img {
+    margin: 2vw 20vw;
   }
 
   section.banner .cardapio2 {
@@ -1284,8 +1288,8 @@ footer div p span {
     flex-wrap: wrap;
   }
 
-  section.banner .exemplos h3{
-   flex-wrap: wrap;
+  section.banner .exemplos h3 {
+    flex-wrap: wrap;
   }
 
   section.noticias .ideia ul {
@@ -1311,6 +1315,12 @@ footer div p span {
   section.banner .atividade {
     flex-wrap: wrap;
   }
+
+  section.noticias .equipe img {
+    flex-wrap: wrap;
+    margin: 2vw 20vw;
+  }
+
   section.noticias .equipe {
     flex-wrap: wrap;
   }
