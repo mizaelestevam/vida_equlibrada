@@ -657,7 +657,7 @@ section.noticias .manual ul li {
   box-shadow: 0 0 8px #374207;
 }
 
-section.noticias ul li h4 {
+section.noticias ul li h2 {
   font-size: 0.8rem;
 }
 
@@ -711,15 +711,16 @@ section.noticias .ideia ul li {
 
 section.noticias .ideia ul li a {
   align-items: center;
-  padding: 0px 5px 0px 5px;
-  font-size: 0.6rem;
+  padding: 1vw 3vw;
+  font-size: 0.9rem;
   background-color: #8f7d3c;
   color: white;
   border-radius: 20px;
+  
 }
 
-section.noticias .ideia h4 {
-  font-size: 1rem;
+section.noticias .ideia h2 {
+  font-size: 1.8rem;
   line-height: 1.6;
 }
 
