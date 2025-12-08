@@ -337,12 +337,19 @@ section.banner div.dicas p {
 }
 
 section.banner .a a {
-  background-color: #b3a46b;
+  background: #8f7d3c;
   color: white;
-  padding: 1vw 3vw;
+  padding: 0.7vw 2vw;
   border-radius: 22px;
-  gap: 20vw;
   font-size: 0.9rem;
+  margin: 10vw 0vw;
+  box-shadow: 0px 0px 8px #877e58;
+}
+
+section.banner .a a:hover {
+  background-color: #4d4730;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 section.banner .cardapio2 {
@@ -576,9 +583,8 @@ section.noticias .alimentacao {
   align-items: center;
   gap: 20px;
   border-radius: 22px;
-  padding: 2vw 2vw 2vw 2vw;
+  padding: 3vw 4vw;
   box-shadow: 0 0 8px #556414;
-  margin-right: 100px;
 }
 
 section.noticias div.resumo p {
@@ -588,12 +594,11 @@ section.noticias div.resumo p {
 }
 
 section.noticias div.resumo h3 {
-  padding: 2vw 5vw;
-  font-size: 1rem;
+  padding: 1vw 1vw;
+  font-size: 1.6rem;
 }
 
 section.noticias .yoga {
-  width: 48vw;
   height: auto;
   justify-content: center;
 }
@@ -719,25 +724,37 @@ section.noticias .ideia ul li {
 
 section.noticias .ideia ul li a {
   align-items: center;
-  padding: 1vw 3vw;
+  padding: 0vw 1vw;
   font-size: 0.9rem;
   background-color: #8f7d3c;
   color: white;
   border-radius: 20px;
 }
 
+section.noticias .ideia ul li a:hover {
+  background-color: #4d4730;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
 section.noticias .ideia h2 {
-  font-size: 1.8rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
 section.noticias .a a {
   background-color: #8f7d3c;
   color: white;
-  padding: 1vw 3vw;
+  padding: 0.6vw 2vw;
   border-radius: 20px;
   gap: 20vw;
   font-size: 0.9rem;
+}
+
+section.noticias .a a:hover {
+  background-color: #4d4730;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 section.noticias .ideia ul li p {
@@ -807,7 +824,7 @@ section.noticias .ideia1 ul li {
 
 section.noticias .ideia1 ul li p {
   font-size: 0.7rem;
-  padding: 1vw 1.4vw 1vw 1.4vw;
+  padding: 0vw 1vw;
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-align: left;
@@ -815,7 +832,7 @@ section.noticias .ideia1 ul li p {
 
 section.noticias .ideia1 h2 {
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -828,8 +845,14 @@ section.noticias .ideia1 a {
   background-color: #3a503f;
   color: white;
   border-radius: 22px;
-  padding: 1vw 2vw;
+  padding: 0vw 1vw;
   font-size: 0.8rem;
+}
+
+section.noticias .ideia1 a:hover {
+  background-color: #586909;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 section.noticias .manual1 {
@@ -854,6 +877,12 @@ section.noticias .manual ul li a {
   border-radius: 10px;
   padding: 1px 10px 1px 10px;
   font-size: 0.8rem;
+}
+
+section.noticias .manual ul li a:hover {
+  background-color: #4d4730;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 section.noticias .manual1 ul li a {
