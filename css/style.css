@@ -146,7 +146,7 @@ header nav {
 }
 
 header nav img {
-  width: 7vw;
+  width: 8vw;
   height: auto;
   border-radius: 5vw;
 }
@@ -177,7 +177,7 @@ header nav ul li:hover ul {
 }
 
 header button {
-  width: 8vw;
+  width: 10vw;
   background-color: #d6d2b8;
   border-radius: 1.2vw;
   display: none;
@@ -211,29 +211,6 @@ section.banner a {
 
 section.banner p a {
   color: #a5b170;
-}
-
-.logo-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 30px;
-  margin-bottom: 0px;
-}
-
-.logo-menu ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.logo-menu img {
-  width: 120px;
-  height: auto;
-  border-radius: 50%;
 }
 
 section.banner div.img p {
@@ -856,10 +833,10 @@ section.noticias .ideia1 a:hover {
 }
 
 section.noticias .manual1 {
-  border-radius: 8vw;
+  border-radius: 6vw;
   text-align: center;
   display: flex;
-  padding: 2vw 2vw 2vw 2vw;
+  padding: 0vw 8vw ;
   flex-wrap: wrap;
 }
 
@@ -879,7 +856,7 @@ section.noticias .manual ul li a {
   font-size: 0.8rem;
 }
 
-section.noticias .manual ul li a:hover {
+section.noticias .manual1 ul li a:hover {
   background-color: #4d4730;
   transform: scale(1.05);
   transition: 0.3s;
@@ -889,12 +866,12 @@ section.noticias .manual1 ul li a {
   background-color: #a89b67;
   color: white;
   border-radius: 22px;
-  padding: 1vw 2vw;
-  font-size: 0.8rem;
+  padding: 0vw 2vw;
+  font-size: 0.9rem;
 }
 
 section.noticias .manual1 ul li h2 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 2vw 0vw;
 }
 
@@ -1292,6 +1269,12 @@ footer div p span {
     max-width: 800px;
     margin: 2vw auto;
   }
+
+  header nav img {
+  width: 22vw;
+  height: auto;
+  border-radius: 5vw;
+}
 
   section.banner h1 {
     flex-wrap: wrap;
