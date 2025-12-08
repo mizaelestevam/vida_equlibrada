@@ -1017,10 +1017,7 @@ main section.pg1 h1 {
 
 /*pg2*/
 
-form actio section.pg2{
-  display: flex;
 
-}
 main section.pg2 {
   display: block;
   width: fit-content;
