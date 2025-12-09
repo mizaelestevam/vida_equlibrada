@@ -20,7 +20,7 @@
             display: none;
         }
 
-        main section.pg5 {
+        main section.pg6 {
             display: none;
         }
 
@@ -28,6 +28,9 @@
             display: block;
         }
 
+        main section.pg {
+            display: none;
+        }
     </style>
 </head>
 
@@ -53,7 +56,7 @@
         <section class="pg2">
 
             <h1>
-                Calcule seu IMC 
+                Calcule seu IMC
             </h1>
 
             <form action="#">
@@ -125,6 +128,32 @@
         </section>
 
         <section class="pg5">
+
+            <h1>
+                Restrições Alimentares
+            </h1>
+
+            <p>Você possui alguma Restrição alimentar a glutem e lactose ?</p>
+
+            <form action="#">
+                <label for="restricao">
+                    Respostas:
+                </label>
+
+                <select name="restricao" id="restricao">
+                    <option value="sim">sim</option>
+                    <option value="não">não</option>
+                    <option value="glutem">glutem</option>
+                    <option value="lactose">lactose</option>
+                </select>
+
+                <button type="button" onclick="vaiParaPg6()">
+                    Próximo
+                </button>
+            </form>
+        </section>
+
+        <section class="pg6">
             <h1>
                 Suas respostas!
             </h1>
@@ -133,6 +162,7 @@
             <p class="resp2"></p>
             <p class="resp3"></p>
             <p class="resp4"></p>
+            <p class="resp5"></p>
 
 
         </section>
@@ -144,11 +174,13 @@
         const pg3 = document.querySelector('.pg3');
         const pg4 = document.querySelector('.pg4');
         const pg5 = document.querySelector('.pg5')
+        const pg6 = document.querySelector('.pg6')
         let refeicoes = "";
         let prato = "";
         let peso = "";
         let altura = "";
         let ultraprocessados = "";
+        let restricao = "";
 
 
         function vaiParaPg2() {
@@ -303,6 +335,40 @@
             }
 
         }
+
+
+        function vaiParaPg6() {
+
+            pg5.style.display = "none";
+            pg6.style.display = "block";
+
+            restricao = document.querySelector("section.pg5 select").value;
+            resp5 = document.querySelector("section.pg6 p.resp5");
+
+            switch (restricao) {
+                case "sim":
+                    resp5.innerHTML = `Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
+                    break;
+
+                case "não":
+                    resp5.innerHTML = `Que bom temos um cardápio personalizado para você também <a href="http://127.0.0.1:3000/cardapio.html">Saiba mais</a> `;
+                    break;
+
+                case "glutem":
+                    resp5.innerHTML = `Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
+                    break;
+
+                case "lactose":
+                    resp5.innerHTML = `Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
+                    break;
+
+                default:
+                    resp5.innerHTML = `Insira uma alternativa`;
+                    break;
+            }
+
+        }
+
 
     </script>
 </body>
