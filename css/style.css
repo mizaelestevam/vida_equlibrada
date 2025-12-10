@@ -836,7 +836,7 @@ section.noticias .manual1 {
   border-radius: 6vw;
   text-align: center;
   display: flex;
-  padding: 0vw 8vw ;
+  padding: 0vw 8vw;
   flex-wrap: wrap;
 }
 
@@ -1017,7 +1017,6 @@ main section.pg1 h1 {
 
 /*pg2*/
 
-
 main section.pg2 {
   display: block;
   width: fit-content;
@@ -1168,7 +1167,7 @@ main section.pg5 button {
   box-shadow: 0px 0px 8px #113028;
   cursor: pointer;
 }
- /*pg6*/
+/*pg6*/
 main section.pg6 {
   display: block;
   width: fit-content;
@@ -1180,11 +1179,11 @@ main section.pg6 {
 
 main section.pg6 h1 {
   color: black;
-  font-size: 8vw;
+  font-size: 6vw;
 }
 
 main section.pg6 p {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1.6;
   color: rgb(53, 46, 46);
@@ -1212,6 +1211,12 @@ main section.pg6 input {
 main section.pg6 input::placeholder {
   font-size: 1rem;
   color: black;
+}
+
+/*pg7*/
+main section.pg7 h1 {
+  color: black;
+  font-size: 10vw;
 }
 
 /*footer*/
@@ -1328,10 +1333,10 @@ footer div p span {
   }
 
   header nav img {
-  width: 22vw;
-  height: auto;
-  border-radius: 5vw;
-}
+    width: 22vw;
+    height: auto;
+    border-radius: 5vw;
+  }
 
   section.banner h1 {
     flex-wrap: wrap;
