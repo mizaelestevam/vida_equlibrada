@@ -243,25 +243,25 @@
                 console.log(imc)
 
                 if (imc < 18.5) {
-                    classificacao = 'Resposta 2: Abaixo do peso';
-                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao} <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429">saiba mais</a>)`;
+                    classificacao = 'Abaixo do peso';
+                    resp2.innerHTML = `Resposta 2: Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao} <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429">saiba mais</a>)`;
                     //window.location.href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429";
 
                 } else if (imc >= 18.5 && imc < 24.9) {
-                    classificacao = 'Resposta 2: Peso normal';
-                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`;
+                    classificacao = 'Peso normal';
+                    resp2.innerHTML = `Resposta 2: Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`;
 
                     //alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
 
 
                 } else if (imc >= 224.9 && imc <= 29.9) {
-                    classificacao = 'Resposta 2: Sobrepeso';
-                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`;
+                    classificacao = 'Sobrepeso';
+                    resp2.innerHTML = `Resposta 2: Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`;
                     // alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
                     //window.location.href = "";
                 } else {
-                    classificacao = 'Resposta 2: Obesidade';
-                    resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`;
+                    classificacao = 'Obesidade';
+                    resp2.innerHTML = `Resposta 2: Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`;
                     // alert()`);
                     //window.location.href = "";
 
