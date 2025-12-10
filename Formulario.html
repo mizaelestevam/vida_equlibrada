@@ -20,7 +20,7 @@
             display: none;
         }
 
-        main section.pg {
+        main section.pg6 {
             display: none;
         }
 
@@ -29,6 +29,10 @@
         }
 
         main section.pg5 {
+            display: none;
+        }
+
+        main section.pg7 {
             display: none;
         }
     </style>
@@ -394,32 +398,30 @@
         }
 
         function vaiParaPg7() {
-
             pg5.style.display = "none";
             pg6.style.display = "block";
 
-            agua = document.querySelector("section.pg6 select").value;
-            resp6 = document.querySelector("section.pg7 p.resp6");
+            let agua = Number(document.querySelector("section.pg6 select").value);
+            let resp6 = document.querySelector("section.pg7 p.resp6");
 
             console.log(agua);
 
-            if (agua <= 2) {
-                resp6.innerHTML = `Resposta 6: Parabéns você bebe bastante água por dia <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>;
+            if (agua <= 1) {
+                resp6.innerHTML = `Resposta 6: Infelizmente você bebe pouca água por dia 
+        <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>`;
 
-
-            }if (agua <=1) {
-               resp6.innerHTML = `Resposta 6: Infelizmente você bebe pouca água por dia <a  href = "https://www.tuasaude.com/calculadora/consumo-de-agua-diario/" > Calcule</a >;
-
-
+            } else if (agua == 2) {
+                resp6.innerHTML = `Resposta 6: Parabéns, você bebe bastante água por dia 
+        <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>`;
 
             } else if (agua >= 3) {
-                resp6.innerHTML = `Resposta 6: Você bebe Uma quantidade exagerada de água por dia <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>;
-        
-            } else {
-           resp6.innerHTML = `Insira um valor válido`;
-         }
-            }
+                resp6.innerHTML = `Resposta 6: Você bebe uma quantidade exagerada de água por dia 
+        <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>`;
 
+            } else {
+                resp6.innerHTML = `Insira um valor válido`;
+            }
+        }
 
 
     </script>

@@ -1168,6 +1168,51 @@ main section.pg5 button {
   box-shadow: 0px 0px 8px #113028;
   cursor: pointer;
 }
+ /*pg6*/
+main section.pg6 {
+  display: block;
+  width: fit-content;
+  margin: 11vw auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 8px #8f7d3c;
+}
+
+main section.pg6 h1 {
+  color: black;
+  font-size: 8vw;
+}
+
+main section.pg6 p {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(53, 46, 46);
+}
+
+main section.pg6 button {
+  background-color: #8f7d3c;
+  font-weight: bolder;
+  font-size: 25px;
+  border-radius: 5px;
+  color: white;
+  padding: 0.9vw 6vw;
+  box-shadow: 0px 0px 8px #113028;
+  cursor: pointer;
+}
+
+main section.pg6 input {
+  border: 1px solid #85878a;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+main section.pg6 input::placeholder {
+  font-size: 1rem;
+  color: black;
+}
 
 /*footer*/
 footer {
