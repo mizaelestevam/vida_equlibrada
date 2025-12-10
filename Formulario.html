@@ -28,7 +28,7 @@
             display: block;
         }
 
-        main section.pg {
+        main section.pg5 {
             display: none;
         }
     </style>
@@ -194,29 +194,29 @@
 
             //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
 
-            resp1 = document.querySelector("section.pg5 p.resp1");
+            resp1 = document.querySelector("section.pg6 p.resp1");
 
 
             if (refeicoes >= 3 && refeicoes <= 5) {
-                resp1.innerHTML = `Parabéns, você se alimenta o ideal por dia.`
+                resp1.innerHTML = `Resposta 1: Parabéns, você se alimenta o ideal por dia.`
                 //alert();
 
             } else if (refeicoes >= 6) {
 
-                resp1.innerHTML = `Essa quantidade pode ser prejudicial para a saúde, e é recomendado apenas para pessoas que gostariam de ganhar massa corporal. \n <a href="https://www.tuasaude.com/dieta-para-aumentar-a-massa-muscular/"> Saiba Mais</a>.`
+                resp1.innerHTML = `Resposta 1: Essa quantidade pode ser prejudicial para a saúde, e é recomendado apenas para pessoas que gostariam de ganhar massa corporal. \n <a href="https://www.tuasaude.com/dieta-para-aumentar-a-massa-muscular/"> Saiba Mais</a>.`
                 //alert();
                 //window.location.href = "";
 
             } else if (refeicoes <= 0) {
 
-                alert(`Insira um valor valido!`);
+                alert(`Resposta 1: Insira um valor valido!`);
 
                 pg1.style.display = "block";
                 pg2.style.display = "none";
 
 
             } else if (refeicoes < 3) {
-                resp1.innerHTML = `Você está comento menos que o recomendado. \n <a href="https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/"> Saiba Mais</a>. `
+                resp1.innerHTML = `Resposta 1: Você está comento menos que o recomendado. \n <a href="https://www.healthshots.com/healthy-eating/nutrition/side-effects-of-skipping-meals/"> Saiba Mais</a>. `
                 //alert();
                 //window.location.href = ;
 
@@ -232,7 +232,7 @@
             altura = Number(document.querySelector("section.pg2 input#altura").value);
             peso = Number(document.querySelector("section.pg2  input#peso").value);
 
-            resp2 = document.querySelector("section.pg5 p.resp2");
+            resp2 = document.querySelector("section.pg6 p.resp2");
 
             console.log(peso, altura);
 
@@ -243,24 +243,24 @@
                 console.log(imc)
 
                 if (imc < 18.5) {
-                    classificacao = 'Abaixo do peso';
+                    classificacao = 'Resposta 2: Abaixo do peso';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao} <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429">saiba mais</a>)`;
                     //window.location.href = "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/underweight/faq-20058429";
 
                 } else if (imc >= 18.5 && imc < 24.9) {
-                    classificacao = 'Peso normal';
+                    classificacao = 'Resposta 2: Peso normal';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`;
 
                     //alert(`Seu IMC é: ${imc.toFixed(2)} \n Classificação:(${classificacao})`);
 
 
                 } else if (imc >= 224.9 && imc <= 29.9) {
-                    classificacao = 'Sobrepeso';
+                    classificacao = 'Resposta 2: Sobrepeso';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`;
                     // alert(`Seu IMC é: ${imc.toFixed(2)} \n Clasificação:(${classificacao})`);
                     //window.location.href = "";
                 } else {
-                    classificacao = 'Obesidade';
+                    classificacao = 'Resposta 2: Obesidade';
                     resp2.innerHTML = `Seu IMC é: ${imc.toFixed(2)} \n Classificação(${classificacao})`;
                     // alert()`);
                     //window.location.href = "";
@@ -269,7 +269,7 @@
 
 
             } else {
-                resp2.innerHTML = 'Por favor, insira valores válidos para peso ou altura.';
+                resp2.innerHTML = 'Resposta 2: Por favor, insira valores válidos para peso ou altura.';
                 //alert();
             }
 
@@ -294,19 +294,19 @@
             pg4.style.display = "block";
 
             prato = document.querySelector("section.pg3 select").value;
-            resp3 = document.querySelector("section.pg5 p.resp3");
+            resp3 = document.querySelector("section.pg6 p.resp3");
 
             switch (prato) {
                 case "sim":
-                    resp3.innerHTML = `Você se alimenta muito bem`;
+                    resp3.innerHTML = `Resposta 3: Você se alimenta muito bem`;
                     break;
 
                 case "não":
-                    resp3.innerHTML = `Você se alimenta de forma não  recomendada <a href="https://viverbem.unimedbh.com.br/qualidade-de-vida/prato-saudavel/">Saiba mais</a> `;
+                    resp3.innerHTML = `Resposta 3: Você se alimenta de forma não  recomendada <a href="https://viverbem.unimedbh.com.br/qualidade-de-vida/prato-saudavel/">Saiba mais</a> `;
                     break;
 
                 default:
-                    resp3.innerHTML = `Insira um valor válido`;
+                    resp3.innerHTML = `Resposta 3: Insira um valor válido`;
                     break;
             }
 
@@ -318,19 +318,19 @@
             pg5.style.display = "block";
 
             ultraprocessados = document.querySelector("section.pg4 select").value;
-            resp4 = document.querySelector("section.pg5 p.resp4");
+            resp4 = document.querySelector("section.pg6 p.resp4");
 
             switch (ultraprocessados) {
                 case "sim":
-                    resp4.innerHTML = `Você está comendo com muito excesso isso pode ser prejudicial a sua saúde <a href="https://idec.org.br/dicas-e-direitos/voce-sabe-o-que-realmente-tem-dentro-dos-produtos-que-consome-todos-os-dias-os">Saiba mais</a>`;
+                    resp4.innerHTML = `Resposta 4: Você está comendo com muito excesso isso pode ser prejudicial a sua saúde <a href="https://idec.org.br/dicas-e-direitos/voce-sabe-o-que-realmente-tem-dentro-dos-produtos-que-consome-todos-os-dias-os">Saiba mais</a>`;
                     break;
 
                 case "não":
-                    resp4.innerHTML = `Parabéns você está comendo com sabedoria <a href="https://www.cnnbrasil.com.br/saude/o-que-acontece-com-corpo-quando-se-come-muitos-ultraprocessados-entenda/">Seus efeitos</a> `;
+                    resp4.innerHTML = `Resposta 4: Parabéns você está comendo com sabedoria <a href="https://www.cnnbrasil.com.br/saude/o-que-acontece-com-corpo-quando-se-come-muitos-ultraprocessados-entenda/">Seus efeitos</a> `;
                     break;
 
                 default:
-                    resp4.innerHTML = `Insira um valor válido`;
+                    resp4.innerHTML = `Resposta 4: Insira um valor válido`;
                     break;
             }
 
@@ -347,23 +347,23 @@
 
             switch (restricao) {
                 case "sim":
-                    resp5.innerHTML = `Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
+                    resp5.innerHTML = `Resposta 5: Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
                     break;
 
                 case "não":
-                    resp5.innerHTML = `Que bom temos um cardápio personalizado para você também <a href="http://127.0.0.1:3000/cardapio.html">Saiba mais</a> `;
+                    resp5.innerHTML = `Resposta 5: Que bom temos um cardápio personalizado para você também <a href="http://127.0.0.1:3000/cardapio.html">Saiba mais</a> `;
                     break;
 
                 case "glutem":
-                    resp5.innerHTML = `Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
+                    resp5.innerHTML = `Resposta 5: Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
                     break;
 
                 case "lactose":
-                    resp5.innerHTML = `Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
+                    resp5.innerHTML = `Resposta 5: Temos um cardápio especial para você <a href="http://127.0.0.1:3000/Cardapio2.html">Saiba mais</a>`;
                     break;
 
                 default:
-                    resp5.innerHTML = `Insira uma alternativa`;
+                    resp5.innerHTML = `Resposta 5: Insira uma alternativa`;
                     break;
             }
 
