@@ -20,7 +20,7 @@
             display: none;
         }
 
-        main section.pg6 {
+        main section.pg {
             display: none;
         }
 
@@ -154,6 +154,27 @@
         </section>
 
         <section class="pg6">
+
+            <h1>
+                Litros de água por dia
+            </h1>
+
+            <p>
+                Quantos litros de água você bebe por dia ?
+            </p>
+
+            <form action="#">
+                <input type="text" placeholder="              Insira aqui">
+
+                <br>
+                <button type="button" onclick="vaiParaPg7()">
+                    Próximo
+                </button>
+            </form>
+
+        </section>
+
+        <section class="pg7">
             <h1>
                 Suas respostas!
             </h1>
@@ -163,6 +184,7 @@
             <p class="resp3"></p>
             <p class="resp4"></p>
             <p class="resp5"></p>
+            <p class="resp6"></p>
 
 
         </section>
@@ -175,12 +197,14 @@
         const pg4 = document.querySelector('.pg4');
         const pg5 = document.querySelector('.pg5')
         const pg6 = document.querySelector('.pg6')
+        const pg7 = document.querySelector('.pg7')
         let refeicoes = "";
         let prato = "";
         let peso = "";
         let altura = "";
         let ultraprocessados = "";
         let restricao = "";
+        let agua = "";
 
 
         function vaiParaPg2() {
@@ -194,7 +218,7 @@
 
             //const usuario = Number(prompt(`Quantas refeições completas você costuma fazer ao dia?`));
 
-            resp1 = document.querySelector("section.pg6 p.resp1");
+            resp1 = document.querySelector("section.pg7 p.resp1");
 
 
             if (refeicoes >= 3 && refeicoes <= 5) {
@@ -232,7 +256,7 @@
             altura = Number(document.querySelector("section.pg2 input#altura").value);
             peso = Number(document.querySelector("section.pg2  input#peso").value);
 
-            resp2 = document.querySelector("section.pg6 p.resp2");
+            resp2 = document.querySelector("section.pg7 p.resp2");
 
             console.log(peso, altura);
 
@@ -294,7 +318,7 @@
             pg4.style.display = "block";
 
             prato = document.querySelector("section.pg3 select").value;
-            resp3 = document.querySelector("section.pg6 p.resp3");
+            resp3 = document.querySelector("section.pg7 p.resp3");
 
             switch (prato) {
                 case "sim":
@@ -318,7 +342,7 @@
             pg5.style.display = "block";
 
             ultraprocessados = document.querySelector("section.pg4 select").value;
-            resp4 = document.querySelector("section.pg6 p.resp4");
+            resp4 = document.querySelector("section.pg7 p.resp4");
 
             switch (ultraprocessados) {
                 case "sim":
@@ -343,7 +367,7 @@
             pg6.style.display = "block";
 
             restricao = document.querySelector("section.pg5 select").value;
-            resp5 = document.querySelector("section.pg6 p.resp5");
+            resp5 = document.querySelector("section.pg7 p.resp5");
 
             switch (restricao) {
                 case "sim":
@@ -368,6 +392,32 @@
             }
 
         }
+
+        function vaiParaPg7() {
+
+            pg5.style.display = "none";
+            pg6.style.display = "block";
+
+            agua = document.querySelector("section.pg6 select").value;
+            resp6 = document.querySelector("section.pg7 p.resp6");
+
+            if (agua <= 2) {
+                resp6.innerHTML = `Resposta 6: Parabéns você bebe bastante água por dia <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>;
+
+
+            }if (agua <=1) {
+               resp6.innerHTML = `Resposta 6: Infelizmente você bebe pouca água por dia <a href = "https://www.tuasaude.com/calculadora/consumo-de-agua-diario/" > Calcule</a >;
+
+
+
+            } else if (agua >= 3) {
+                resp6.innerHTML = `Resposta 6: Você bebe Uma quantidade exagerada de água por dia <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>;
+        
+            } else {
+           resp6.innerHTML = `Insira um valor válido`;
+         }
+            }
+
 
 
     </script>
