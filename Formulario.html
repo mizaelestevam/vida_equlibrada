@@ -401,12 +401,14 @@
             agua = document.querySelector("section.pg6 select").value;
             resp6 = document.querySelector("section.pg7 p.resp6");
 
+            console.log(agua);
+
             if (agua <= 2) {
                 resp6.innerHTML = `Resposta 6: Parabéns você bebe bastante água por dia <a href="https://www.tuasaude.com/calculadora/consumo-de-agua-diario/">Calcule</a>;
 
 
             }if (agua <=1) {
-               resp6.innerHTML = `Resposta 6: Infelizmente você bebe pouca água por dia <a href = "https://www.tuasaude.com/calculadora/consumo-de-agua-diario/" > Calcule</a >;
+               resp6.innerHTML = `Resposta 6: Infelizmente você bebe pouca água por dia <a  href = "https://www.tuasaude.com/calculadora/consumo-de-agua-diario/" > Calcule</a >;
 
 
 
